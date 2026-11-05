@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
 const { chromium } = require('playwright');
 const axe = readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 const BASE = process.env.BASE ?? 'http://localhost:3000';
-const RUTAS = ['/', '/ba', '/ba/servicios/fenecimiento', '/ba/contacto', '/ba/experiencia', '/eva', '/eva/usa-la-ia-en-tu-trabajo-sin-poner-en-riesgo-tu-firma', '/eva/lista-de-espera', '/eva/aprender/usa-la-ia-en-tu-trabajo-sin-poner-en-riesgo-tu-firma', '/ckop', '/ckop/panel', '/soluciones', '/jsgm', '/aliados', '/aliados/juntos-de-la-mano', '/aliados/derecho-y-formacion', '/privacidad', '/ingresar', '/no-existe'];
+const RUTAS = ['/', '/ba', '/ba/servicios/fenecimiento', '/ba/contacto', '/ba/experiencia', '/ba/legado', '/eva', '/eva/usa-la-ia-en-tu-trabajo-sin-poner-en-riesgo-tu-firma', '/eva/lista-de-espera', '/eva/aprender/usa-la-ia-en-tu-trabajo-sin-poner-en-riesgo-tu-firma', '/ckop', '/ckop/panel', '/soluciones', '/jsgm', '/aliados', '/aliados/juntos-de-la-mano', '/aliados/derecho-y-formacion', '/privacidad', '/ingresar', '/no-existe'];
 const PROHIBIDOS = [/\bdiplomas?\b/i, /\bt[íi]tulos?\b/i, /\bcertificamos\b/i, /B&A certifica/i, /soluciones integrales/i, /de vanguardia/i];
 
 const navegador = await chromium.launch();

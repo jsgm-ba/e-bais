@@ -93,7 +93,11 @@ const Linea = z.object({ slug: z.string(), titulo: z.string(), problema: z.strin
 export type Linea = z.infer<typeof Linea>;
 export const BA = z.object({
   ...Pagina, meta: Meta,
-  hero: z.object({ titular: z.string(), bajada: z.string(), accion_principal: Enlace, accion_secundaria: Enlace }),
+  hero: z.object({ antetitulo: z.string(), titular: z.string(), subtitular: z.string(), bajada: z.string(), fuentes: z.array(z.string()).min(1), accion_principal: Enlace, accion_secundaria: Enlace }),
+  prueba: z.object({ titulo: z.string(), items: z.array(z.object({ cifra: z.string(), etiqueta: z.string(), fuentes: z.array(z.string()).min(1) })) }),
+  etapas: z.object({ titulo: z.string(), fuentes: z.array(z.string()).min(1), items: z.array(z.object({ periodo: z.string(), t: z.string(), d: z.string() })), hilo: z.string() }),
+  capacidades: z.object({ titulo: z.string(), bajada: z.string(), fuentes: z.array(z.string()).min(1), items: z.array(z.object({ t: z.string(), n: z.number() })), nota: z.string() }),
+  metodo: z.object({ titulo: z.string(), items: z.array(z.object({ t: z.string(), d: z.string() })) }),
   nota_auditoria: z.string(),
   lineas: z.array(Linea),
   experiencia: z.object({ titulo: z.string(), bajada: z.string(), en_validacion: z.string(), columnas: z.array(z.string()) }),
@@ -101,9 +105,27 @@ export const BA = z.object({
   contacto: z.object({ titulo: z.string(), bajada: z.string(), motivos: z.array(z.object({ v: z.string(), t: z.string() })) }),
 });
 
+export const FilaExperiencia = z.object({
+  id_rup: z.number().int(), entidad: z.string(), tipo_entidad: z.string(), objeto: z.string(), anio: z.number().int().nullable(),
+  valor_cop: z.number().nullable(), servicio: z.string(), normas: z.string().nullable(), soporte: z.string(),
+  secop_url: z.string().url().nullable(), permiso_ref: z.string().min(1), publicable: z.boolean(), fuentes: z.array(z.string()).min(1),
+});
+export type FilaExperiencia = z.infer<typeof FilaExperiencia>;
 export const Experiencia = z.object({
   ...Pagina,
-  filas: z.array(z.object({ entidad: z.string(), objeto: z.string(), anio: z.number(), valor_cop: z.number().nullable(), soporte: z.string(), secop_url: z.string().url().nullable(), permiso_ref: z.string().min(1), publicable: z.boolean(), fuentes: z.array(z.string()).min(1) })),
+  resumen: z.object({ contratos: z.number(), verificados: z.number(), entidades: z.number(), desde: z.number(), hasta: z.number(),
+    por_servicio: z.record(z.number()), por_tipo_entidad: z.record(z.number()), fuentes: z.array(z.string()).min(1), nota: z.string() }),
+  demanda: z.object({ procesos_historico: z.number(), procesos_semaforo: z.number(), fuentes: z.array(z.string()).min(1) }),
+  filas: z.array(FilaExperiencia),
+});
+export const MMP = z.object({
+  ...Pagina, nombre: z.string(), rol: z.string(), inicio_carrera: z.number(),
+  resumen_carrera: z.object({ texto: z.string(), fuentes: z.array(z.string()).min(1) }),
+  hitos: z.array(z.object({ entidad: z.string(), vinculo: z.string(), desde: z.number().nullable(), hasta: z.number().nullable(), tematica: z.string().nullable() })),
+  fuentes: z.array(z.string()).min(1), nota: z.string(),
+});
+export const RedExpertos = z.object({
+  ...Pagina, profesionales: z.number(), auditores_lideres_iaf: z.number(), por_norma: z.record(z.number()), fuentes: z.array(z.string()).min(1), nota: z.string(),
 });
 
 export const EVA = z.object({
@@ -122,6 +144,7 @@ export const CKOP = z.object({
   decisiones: z.array(z.object({ t: z.string(), d: z.string() })),
   como: z.object({ titulo: z.string(), pasos: z.array(z.string()) }),
   principios: z.object({ titulo: z.string(), items: z.array(z.string()) }),
+  traccion: z.object({ titulo: z.string(), items: z.array(z.object({ cifra: z.string(), etiqueta: z.string() })), fuentes: z.array(z.string()).min(1) }),
   modulos_titulo: z.string(),
   demo: z.object({ titulo: z.string(), aviso: z.string(), columnas: z.record(z.string()) }),
   ingresar: z.object({ t: z.string(), deshabilitado: z.string() }),

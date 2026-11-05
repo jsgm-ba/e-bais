@@ -1,0 +1,143 @@
+{
+ "_estado": {
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Maestro de Experiencia B&A + MMP, hoja MMP_Experiencia (21-ago-2026), con certificaciones de las entidades"
+  ]
+ },
+ "nombre": "Marisol Muñoz Peralta",
+ "rol": "Directora técnica de B&A",
+ "inicio_carrera": 1989,
+ "resumen_carrera": {
+  "texto": "En el control público desde 1989: primero en la Contraloría General de la República y la Contraloría de Bogotá, después como consultora y auditora de entidades del orden nacional, territorial y de cooperación internacional.",
+  "fuentes": [
+   "Maestro de Experiencia B&A + MMP, hoja MMP_Experiencia (21-ago-2026), con certificaciones de las entidades"
+  ]
+ },
+ "hitos": [
+  {
+   "entidad": "Contraloría General de la República",
+   "vinculo": "Planta",
+   "desde": 1989,
+   "hasta": 2004,
+   "tematica": "Control Fiscal, Control Interno, Auditoria"
+  },
+  {
+   "entidad": "Contraloría de Bogotá",
+   "vinculo": "Planta",
+   "desde": 2001,
+   "hasta": 2004,
+   "tematica": "Control Interno, MECI, MIPG, Sistema de Gestión de Calidad"
+  },
+  {
+   "entidad": "Fondo Pasivo Social de Ferrocarriles",
+   "vinculo": "Prestación de servicios",
+   "desde": 2004,
+   "hasta": 2004,
+   "tematica": "Sistema de Gestión de Calidad (SGC) Control Interno Modelo Estándar de Control Interno (MECI) Modelo Integrado de Planeación y Gestión (MIPG"
+  },
+  {
+   "entidad": "Alcaldía de Engativá",
+   "vinculo": "Prestación de servicios",
+   "desde": 2005,
+   "hasta": 2005,
+   "tematica": "Control Interno Modelo Estándar de Control Interno (MECI) Sistema de Gestión de Calidad Gestión del Riesgo"
+  },
+  {
+   "entidad": "Alcaldía de Melgar",
+   "vinculo": "Prestación de servicios",
+   "desde": 2005,
+   "hasta": 2006,
+   "tematica": "Control Interno Saneamiento Contable MIPG (Modelo Integrado de Planeación y Gestión) MECI (Modelo Estándar de Control Interno) Sistema de Ge"
+  },
+  {
+   "entidad": "Business & Auditing Consultores Ltda",
+   "vinculo": "Prestación de servicios",
+   "desde": 2005,
+   "hasta": 2025,
+   "tematica": "Control Interno Sistemas Integrados de Gestión (Calidad, Medio Ambiente, SST) MIPG (Modelo Integrado de Planeación y Gestión) MECI (Modelo E"
+  },
+  {
+   "entidad": "Universidad Distrital Francisco Jose de Caldas",
+   "vinculo": "Prestación de servicios",
+   "desde": 2007,
+   "hasta": 2007,
+   "tematica": "Control Interno (MECI) Sistemas de Gestión de Calidad (NTCGP 1000:2004) MIPG (Modelo Integrado de Planeación y Gestión) Gestión Ambiental (I"
+  },
+  {
+   "entidad": "Fondo Rotatorio Ministerio de Relaciones Exteriores",
+   "vinculo": "Prestación de servicios",
+   "desde": 2007,
+   "hasta": 2007,
+   "tematica": "Control Interno (MECI) Saneamiento y gestión administrativa (SISTEDA) MIPG (Modelo Integrado de Planeación y Gestión) Sistema de Gestión de "
+  },
+  {
+   "entidad": "CORPORINOQUIA",
+   "vinculo": "Prestación de servicios",
+   "desde": 2008,
+   "hasta": 2008,
+   "tematica": "Control Interno (MECI) Sistema de Gestión de Calidad (ISO 9001:2000, NTCGP 1000:2004) SISTEDA (Sistema de Desarrollo Administrativo) MIPG (M"
+  },
+  {
+   "entidad": "ESAP",
+   "vinculo": "Prestación de servicios",
+   "desde": 2008,
+   "hasta": 2014,
+   "tematica": "Control interno MECI Sistema de gestión de calidad"
+  },
+  {
+   "entidad": "BDO Audit S.A.",
+   "vinculo": "Prestación de servicios",
+   "desde": 2009,
+   "hasta": 2010,
+   "tematica": "Control interno Saneamiento contable MECI Sistema de gestión de calidad Prevención y eliminación de cualquier tipo y forma de discriminación"
+  },
+  {
+   "entidad": "Superintendencia de Economía Solidaria",
+   "vinculo": "Prestación de servicios",
+   "desde": 2017,
+   "hasta": 2017,
+   "tematica": "Control interno MECI Sistema de gestión de calidad Sistema de seguridad de la información -Prevención y eliminación de cualquier tipo y form"
+  },
+  {
+   "entidad": "Unidad Administrativa Especial Cuerpo Oficial de Bomberos de Bogotá",
+   "vinculo": "Prestación de servicios",
+   "desde": 2017,
+   "hasta": 2018,
+   "tematica": "Control interno (SCI) MECI Sistema de gestión de calidad (SGC) Sistema de gestión ambiental Sistema de seguridad de la información (SGSI) Pr"
+  },
+  {
+   "entidad": "Fundación Gilberto Álzate Avendaño",
+   "vinculo": "Prestación de servicios",
+   "desde": 2018,
+   "hasta": 2018,
+   "tematica": "Control interno (MECI) Saneamiento contable MIPG Sistema de gestión de calidad (SGC) Sistema de responsabilidad social (SRS) Prevención y el"
+  },
+  {
+   "entidad": "Unidad Nacional de Protección",
+   "vinculo": "Prestación de servicios",
+   "desde": 2019,
+   "hasta": 2020,
+   "tematica": null
+  },
+  {
+   "entidad": "USAID – Chemonics / UNP",
+   "vinculo": "Prestación de servicios",
+   "desde": 2020,
+   "hasta": 2020,
+   "tematica": null
+  },
+  {
+   "entidad": "Fondo Desarrollo Local de San Cristobal",
+   "vinculo": "Prestación de servicios",
+   "desde": 2021,
+   "hasta": 2024,
+   "tematica": "- Control interno - MECI - Sistema de gestión de calidad - Saneamiento contable - Prevención y eliminación de cualquier tipo y forma de disc"
+  }
+ ],
+ "fuentes": [
+  "Maestro de Experiencia B&A + MMP, hoja MMP_Experiencia (21-ago-2026), con certificaciones de las entidades"
+ ],
+ "nota": "[[PENDIENTE: MMP confirma cargos y fechas; faltan fechas de Tauramena, ANDJE, Agua Fresquita, Coingesarco y Envigado]]"
+}

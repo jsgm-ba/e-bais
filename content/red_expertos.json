@@ -1,0 +1,23 @@
+{
+ "_estado": {
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Maestro de Auditores y Expertos, hoja Resumen_EVA_Anonimizado (21-ago-2026); datos en verificación"
+  ]
+ },
+ "profesionales": 525,
+ "auditores_lideres_iaf": 19,
+ "por_norma": {
+  "ISO 9001": 207,
+  "ISO 14001": 104,
+  "OHSAS 18001 / ISO 45001": 100,
+  "ISO/IEC 27001": 29,
+  "ISO/IEC 17025": 26,
+  "ISO 19011": 23
+ },
+ "fuentes": [
+  "Maestro de Auditores y Expertos, hoja Resumen_EVA_Anonimizado (21-ago-2026); datos en verificación"
+ ],
+ "nota": "[[PENDIENTE: los perfiles están en semáforo AMARILLO (sin verificar); ningún nombre se publica sin permiso escrito]]"
+}

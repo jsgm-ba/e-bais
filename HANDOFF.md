@@ -15,6 +15,14 @@ El indicador de uso de la sesión no se actualizó durante el turno de trabajo (
 - Alcance: cimientos y un piloto de cada superficie. Nuevo: **perfil experto de JSGM** (`/jsgm`) como portafolio consultivo, y **propuestas de colaboración directa** con Juntos de la Mano y Derecho y Formación (`/aliados`, `/aliados/[fundacion]`, imprimibles con Ctrl+P), con hipótesis por validar, oferta, plan de 90 días, métricas, aportes de cada parte y preguntas para la primera reunión.
 - Los productos conservan su estado del Catálogo: 39 «En diseño» y 2 «Confirmado» (C4-04 y C4-05). Todos con «Precio en preparación» mientras `aprobado_mmp` sea falso.
 
+## 3b. Ronda 2 (05-nov-2026): datos reales de B&A
+- **Landing de B&A rehecha** con insumos de la firma: Dossier Estratégico B&Ai, Maestro de Experiencia, Maestro de Auditores, Torre de Control y certificado RUP. Contiene titular editorial, franja de evidencia con notas a fuente (1996, 64 contratos, 47 entidades, 0 sanciones, 525 profesionales), cuatro etapas, capacidades acreditadas, dirección técnica, red de expertos por norma, método y fuentes al pie.
+- `/ba/legado`: trayectoria de MMP desde 1989 (17 hitos con fecha). `/ba/experiencia`: resumen de los 64 contratos y tabla de los 9 con soporte verificado.
+- `scripts/importar_experiencia.py` regenera `experiencia.json`, `mmp.json` y `red_expertos.json`. **Los xlsx no se suben**: el de auditores trae cédulas, celulares y correos. De la red solo se publican conteos por norma, nunca nombres.
+- CKOP reconoce los encabezados reales de SEMÁFORO 2026-2 y el semáforo con emoji (✅ ‼️ ❌ 🔍), con prueba unitaria.
+- Contradicción visible: 64 contratos (maestro depurado, RUP) frente a 89 (Dossier, B&A + MMP persona natural). Se muestran ambas cifras con su fuente; falta conciliarlas.
+- **Logo**: llegó como imagen en el chat, no como archivo. Hay que subirlo (SVG o PNG) para reemplazar el marcador `eb-logo-slot`.
+
 ## 4. Criterios de aceptación y evidencia
 | Criterio | Estado | Evidencia |
 |---|---|---|
@@ -23,12 +31,12 @@ El indicador de uso de la sesión no se actualizó durante el turno de trabajo (
 | Catálogo de /eva = catalogo.json | Cumple | 41 productos en `content/catalogo.json`; la página muestra `conteo-catalogo` = 41 en vista previa |
 | Ningún aliado, cliente o docente con nombre sin `permiso_ref` | Cumple | Regla `nombre-sin-permiso`; las fundaciones y el FNE solo aparecen en vista previa, como borrador |
 | Formularios: sin autorización no envía; sin destino lo dice | Cumple | `Formulario.tsx` y `/api/formularios` (`autorizacion: z.literal(true)`; 503 «Formulario en preparación») |
-| axe sin violaciones serias, contraste AA, 360 px sin scroll | Cumple | `pnpm e2e`: 76 de 76 combinaciones (19 rutas × 360/1280 × claro/oscuro); `pnpm contraste`: 72 de 72 parejas AA |
+| axe sin violaciones serias, contraste AA, 360 px sin scroll | Cumple | `pnpm e2e`: 80 de 80 combinaciones (20 rutas × 360/1280 × claro/oscuro); `pnpm contraste`: 72 de 72 parejas AA |
 | Un solo acento por pantalla; semáforo con ícono + palabra; sin emoji ni logo reconstruido | Cumple | `data-product` por superficie; `EstadoSemaforo`; marcador `eb-logo-slot` |
 | Producción no publica borradores | Cumple | Build con `VERCEL_ENV=production`: páginas en «Contenido en preparación», fichas en 404 y `/sistema` en 404 |
 | Rama empujada, PR abierto, vista previa de Vercel | Parcial | Rama y PR #1 sí; vista previa pendiente de importar el repo en Vercel |
 
-Comandos verificados en el contenedor: `pnpm typecheck` · `pnpm lint` · `pnpm test` (26 pruebas) · `pnpm build` · `pnpm e2e`.
+Comandos verificados en el contenedor: `pnpm typecheck` · `pnpm lint` · `pnpm test` (28 pruebas) · `pnpm build` · `pnpm e2e`.
 
 ## 5. Lo que no se pudo probar en este contenedor
 `pnpm conexiones` prueba cada servicio y dice qué falta; la guía paso a paso está en `docs/CONECTAR_DATOS.md`.

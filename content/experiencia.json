@@ -1,4 +1,1133 @@
 {
- "_estado": {"publicacion": "borrador", "aprobado_por": null, "fuentes": ["MMP MCP/EXP CONTRACTUAL (pendiente de revisión)"]},
- "filas": []
+ "_estado": {
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+  ]
+ },
+ "resumen": {
+  "contratos": 64,
+  "verificados": 9,
+  "entidades": 47,
+  "desde": 2006,
+  "hasta": 2025,
+  "por_servicio": {
+   "Capacitación": 32,
+   "Consultoría": 22,
+   "Otros servicios": 6,
+   "Auditoría": 4
+  },
+  "por_tipo_entidad": {
+   "Entidades del orden nacional": 24,
+   "Corporaciones autónomas regionales": 8,
+   "Entidades territoriales": 7,
+   "Cooperación internacional y ESAL": 6,
+   "Educación": 6,
+   "Empresas de servicios públicos y transporte": 6,
+   "Sector privado": 4,
+   "Órganos de control": 3
+  },
+  "fuentes": [
+   "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+  ],
+  "nota": "[[PENDIENTE: el RUP reporta 65 contratos y este maestro 64; 9 tienen soporte verificado (fase 2). El valor total no se publica hasta depurar duplicados]]"
+ },
+ "demanda": {
+  "procesos_historico": 277,
+  "procesos_semaforo": 48,
+  "fuentes": [
+   "Torre de Control Maestro de Licitaciones (27-oct-2026)"
+  ]
+ },
+ "filas": [
+  {
+   "id_rup": 1,
+   "entidad": "Gocon Ltda",
+   "tipo_entidad": "Sector privado",
+   "objeto": "Prestar servicios relacionados con asesoría, capacitación e implementación de los sisemas de gestión ambiental, ISO 14001, el sistema de salud y seguridad para el trabajo OHSAS 18001:2007 y el acompañamiento al primer ciclo de auditoría interna",
+   "anio": 2013,
+   "valor_cop": 36000000,
+   "servicio": "Capacitación",
+   "normas": "ISO 14001, OHSAS 18001:2007",
+   "soporte": "RUP de B&A, ID 1 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 1)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 2,
+   "entidad": "Alcaldia Municipal De Mani Casanare",
+   "tipo_entidad": "Entidades territoriales",
+   "objeto": "Prestación de servicios profesionales en la capacitación, asesoría y acompañamiento en la elaboración del diagnóstico y plan de acción detallado para la implementación del sistema de gestión de calidad bajo NTC y MECI",
+   "anio": 2006,
+   "valor_cop": 8000000,
+   "servicio": "Capacitación",
+   "normas": "NTC MECI / MECI Y NTCGP",
+   "soporte": "RUP de B&A, ID 2 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 2)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 3,
+   "entidad": "Alcaldia Municipal De Granada",
+   "tipo_entidad": "Entidades territoriales",
+   "objeto": "Acompañamiento y asesoría en la planificación, diseño e implementación del sistema de control interno NTC GP en el municipio de granada meta",
+   "anio": 2007,
+   "valor_cop": 31726000,
+   "servicio": "Capacitación",
+   "normas": "Sistema de Control Interno NTCGP , Sistema de Gestión de Calidad y MECI conforme la NTC GP 1000:2004 y MECI 1000:2005 , y de conformidad con la ISO 19011.",
+   "soporte": "RUP de B&A, ID 3 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 3)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 4,
+   "entidad": "Asociacion Administracion Y Control Organizacional Total",
+   "tipo_entidad": "Cooperación internacional y ESAL",
+   "objeto": "Diseño de diplomado auditores internos SGC en el poder público en colombia, NTC GP 1000:2004 y MECI 1000:2005 y suministros de docentes para su realización",
+   "anio": null,
+   "valor_cop": 20500000,
+   "servicio": "Capacitación",
+   "normas": "Norma Técnica NTCGP 1000: 2004 Y Modelo Estándar de Control Interno para el Estado Colombiano MECI 1000:2005.",
+   "soporte": "RUP de B&A, ID 4 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 4)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 5,
+   "entidad": "Fondo Pasivo Social De Ferrocarriles Nacionales De Colombia",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Capacitación diseño, documentación y acompañamiento con el fin de culminar la implementación de los sistemas de gestión de calidad",
+   "anio": 2007,
+   "valor_cop": 49880000,
+   "servicio": "Capacitación",
+   "normas": "Gestión de Calidad y Control Interno-MECI.",
+   "soporte": "RUP de B&A, ID 5 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 5)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 6,
+   "entidad": "Alcaldia Municipal De Granada Meta",
+   "tipo_entidad": "Entidades territoriales",
+   "objeto": "Acompañamiento y asesoría en la planificación, diseño e implementación del sistema de control interno NTC GP en el municipio de granada meta",
+   "anio": 2007,
+   "valor_cop": 31726000,
+   "servicio": "Capacitación",
+   "normas": "sistema de control interno NTC GP",
+   "soporte": "RUP de B&A, ID 6 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 6)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 7,
+   "entidad": "Universidad Colegio Mayor De Cundinamarca",
+   "tipo_entidad": "Educación",
+   "objeto": "SIN DATO",
+   "anio": null,
+   "valor_cop": 25984000,
+   "servicio": "Capacitación",
+   "normas": "Sistema de Gestión de Calidad y MECI conforme la NTC GP 1000:2004 y MECI 1000:2005 8, y la ISO 190119.",
+   "soporte": "RUP de B&A, ID 7 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 7)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 8,
+   "entidad": "Secretaria De Hacienda Distrital",
+   "tipo_entidad": "Entidades territoriales",
+   "objeto": "Contratar la capacitación, formación y actualización de auditores interno bajo la normas MECI, NTCGP 1000:2008, ISO 27001 para los funcionarios de la Secretaria Distrital de Hacienda",
+   "anio": 2010,
+   "valor_cop": 18000000,
+   "servicio": "Capacitación",
+   "normas": "N/A (No se menciona ninguna norma explícita)",
+   "soporte": "RUP de B&A, ID 8 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 8)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 9,
+   "entidad": "Archivo General De La Nacion",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Suministrar servicios de capacitación en el tema de auditores líderes en sistema integrado de gestión NTC GP 1000:2004 y MECI 1000:2005 para el jefe de la unidad de control interno",
+   "anio": null,
+   "valor_cop": 2320000,
+   "servicio": "Capacitación",
+   "normas": "Sistemas integrados de gestión (NTCGP 1000:2004 y MECI 1000:2005)5.",
+   "soporte": "RUP de B&A, ID 9 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 9)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 10,
+   "entidad": "Fondo Pasivo Social De Ferrocarriles Nacionales De Colombia",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "La implementación y el establecimiento de políticas de control interno contable del FPS",
+   "anio": 2008,
+   "valor_cop": 49880000,
+   "servicio": "Capacitación",
+   "normas": "políticas de control interno contable",
+   "soporte": "RUP de B&A, ID 10 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 10)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 11,
+   "entidad": "Fondo Nacional De Estupefacientes",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "SIN DATO",
+   "anio": 2008,
+   "valor_cop": 44800000,
+   "servicio": "Capacitación",
+   "normas": "NTC GP 1000 MECI 1000:2005 y Control Interno Contable",
+   "soporte": "RUP de B&A, ID 11 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 11)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 12,
+   "entidad": "Universidad De Cundinamarca",
+   "tipo_entidad": "Educación",
+   "objeto": "Realizar el diagnostico, planificación, implementación del sistema integral de gestión (MECI)",
+   "anio": 2008,
+   "valor_cop": 211050000,
+   "servicio": "Capacitación",
+   "normas": "MECI",
+   "soporte": "RUP de B&A, ID 12 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 12)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 13,
+   "entidad": "Fundacion Creamos Usaid Adam-Ard-Gl-203?G140",
+   "tipo_entidad": "Cooperación internacional y ESAL",
+   "objeto": "Implementación del modelo estándar de control interno MECI 1000:2005 en 15 municipios de los departamentos de Cauca, Cesar, Santander, Bolívar y Tolima",
+   "anio": null,
+   "valor_cop": 150000000,
+   "servicio": "Consultoría",
+   "normas": "MECI 1000:2005. La actividad fue clasificada como CONSULTORIA según el Decreto 4881 de 2008.",
+   "soporte": "RUP de B&A, ID 13 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 13)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 14,
+   "entidad": "Alcaldia De Santamarta, Distrito Turistico, Cultural E Historico",
+   "tipo_entidad": "Entidades territoriales",
+   "objeto": "Acompañamiento para el diseño e implementación y evaluación del sistema integral de gestión de la alcaldía distrital de santa marta bajo las normas MECI 1000:2005 y NTC GP 1000:2004",
+   "anio": 2008,
+   "valor_cop": 200000000,
+   "servicio": "Consultoría",
+   "normas": "Sistema Integral de Gestión bajo las normas MECI 1000:2005 y NTC GP 1000:2004. La actividad fue clasificada como CONSULTORIA según el Decreto 4881 de 2008.",
+   "soporte": "RUP de B&A, ID 14 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 14)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 15,
+   "entidad": "Departamento Administrativo De La Presidencia De La Republica",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestar el servicio de capacitación a los funcionarios, en gestión de la calidad y el modelo estándar de control interno (MECI)",
+   "anio": null,
+   "valor_cop": 28127719,
+   "servicio": "Capacitación",
+   "normas": "MECI",
+   "soporte": "RUP de B&A, ID 15 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 15)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 16,
+   "entidad": "Departamento De Policia Del Huila",
+   "tipo_entidad": "Entidades territoriales",
+   "objeto": "Capacitaciones en desarrollo afectivo y su incidencia en la vida familiar y escolar, taller de comprensión y utilización, taller para el manejo de la dificultades de aprendizaje.",
+   "anio": null,
+   "valor_cop": 7500000,
+   "servicio": "Capacitación",
+   "normas": "Capacitacion no formal, talleres.",
+   "soporte": "RUP de B&A, ID 16 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 16)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 17,
+   "entidad": "Corporacion Autonoma Regional Para La Defensa De La Meseta De Bucaramanga, Cdmb",
+   "tipo_entidad": "Corporaciones autónomas regionales",
+   "objeto": "Implementación del SGC bajo la NTC GP1000:2004 y MECI 1000:2005",
+   "anio": null,
+   "valor_cop": 6960000,
+   "servicio": "Consultoría",
+   "normas": "Sistema de Gestión Integrado",
+   "soporte": "RUP de B&A, ID 17 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 17)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 18,
+   "entidad": "Personeria De Bucaramanga",
+   "tipo_entidad": "Órganos de control",
+   "objeto": "Servicios profesionales para llevar a cabo la realización de actividades de capacitación relacionadas con la sensibilización, motivación, diagnóstico e inducción al proceso de implementación del sistema de gestión de calidad NTC GP 1000:2004 de la Personería de Bucaramanga",
+   "anio": 2009,
+   "valor_cop": 20000000,
+   "servicio": "Capacitación",
+   "normas": "Sistema de Gestión de Calidad NTC GP 1000:2004.",
+   "soporte": "RUP de B&A, ID 18 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 18)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 19,
+   "entidad": "Bdo Audit Sa",
+   "tipo_entidad": "Sector privado",
+   "objeto": "Prestación de servicios profesionales para la dirección técnica y la realización de auditorías internas de calidad del servicio de auditoria interna a través de la modalidad de OUTSOURCING",
+   "anio": 2009,
+   "valor_cop": 84000000,
+   "servicio": "Auditoría",
+   "normas": "Auditoria interna, calidad interna.Planeacion publica, gestion de proyectos.",
+   "soporte": "RUP de B&A, ID 19 · certificación de la entidad verificada",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 19)",
+   "publicable": true,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 20,
+   "entidad": "Universidad De Cundinamarca",
+   "tipo_entidad": "Educación",
+   "objeto": "Realizar el diagnostico, planificación, implementación del sistema integral de gestión (MECI)",
+   "anio": null,
+   "valor_cop": 211050000,
+   "servicio": "Capacitación",
+   "normas": "MECI",
+   "soporte": "RUP de B&A, ID 20 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 20)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 21,
+   "entidad": "Cormagdalena",
+   "tipo_entidad": "Corporaciones autónomas regionales",
+   "objeto": "Diseño y elaboración de un tablero de control aplicable a las concesiones fluviales y marítimas a cargo de CORMAGDALENA",
+   "anio": 2010,
+   "valor_cop": 33000000,
+   "servicio": "Consultoría",
+   "normas": "IMPLEMENTACIÓN DEL MODELO INTEGRADO DE PLANEACIÓN GESTIÓN - MIPG",
+   "soporte": "RUP de B&A, ID 21 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 21)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 22,
+   "entidad": "Fundacion Creamos Fondo Nacional De Ahorro",
+   "tipo_entidad": "Cooperación internacional y ESAL",
+   "objeto": "Prestación de servicios de consultoría suscrito entre el fondo nacional del ahorro prestando apoyo en la implementación de las actividades requeridas para el cumplimiento de las instrucciones fijadas en la circular 038 de 2009 de la superintendencia financiera",
+   "anio": null,
+   "valor_cop": 150000000,
+   "servicio": "Consultoría",
+   "normas": "Modelo Estándar de Control interno MECI 1000:2005.",
+   "soporte": "RUP de B&A, ID 22 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 22)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 23,
+   "entidad": "Universidad Nacional Abierta Y A Distancia Unad",
+   "tipo_entidad": "Educación",
+   "objeto": "Prestación de servicios de diseño de diplomado para formación virtual como auditor líder NTC GP 1000:2004 y MECI 1000:2005 y forma de acuerdo con estos contenidos a 50 funcionarios del instituto colombiano de desarrollo - INCODER.",
+   "anio": 2010,
+   "valor_cop": 59500000,
+   "servicio": "Capacitación",
+   "normas": "NTCGP 1000:2004 y MECI 1000:2005 (para formación de Auditor Líder).",
+   "soporte": "RUP de B&A, ID 23 · certificación de la entidad verificada",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 23)",
+   "publicable": true,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 24,
+   "entidad": "Unidad Administrativa Especial De Servicios Publicos Uaesp-",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Realizar la estructuración del modelo institucional de la entidad, en sus componentes jurídico, técnico y financiero, de conformidad el pliego de condiciones, cual hace parte integral del presente contrato",
+   "anio": 2010,
+   "valor_cop": 5496030,
+   "servicio": "Auditoría",
+   "normas": "Sistema Integrado de Gestión bajo el enfoque de la Norma NTC GP1000-2009 y MECI 1000-2005.",
+   "soporte": "RUP de B&A, ID 24 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 24)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 25,
+   "entidad": "Asociacion De Pescadores Chimichagua \"Asopescan\"",
+   "tipo_entidad": "Cooperación internacional y ESAL",
+   "objeto": "SIN DATO",
+   "anio": null,
+   "valor_cop": null,
+   "servicio": "Auditoría",
+   "normas": "Lineamientos de la Unión Europea y del Ministerio de Comercio, Industria y Turismo (Financiera y Técnica).",
+   "soporte": "RUP de B&A, ID 25 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 25)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 26,
+   "entidad": "Sbp Colombia",
+   "tipo_entidad": "Sector privado",
+   "objeto": "Capacitacion AUDITOR INTEGRAL HSEQ ISO 9001:2015, 14001:2015, OHSAS 18001",
+   "anio": null,
+   "valor_cop": 34500000,
+   "servicio": "Capacitación",
+   "normas": "Sistemas Integrados de Gestión con base en la ISO 9001:2015, ISO 14001:2015 e ISO 45001:2018 en articulación con el Modelo Integrado de Planeación y Gestión - M",
+   "soporte": "RUP de B&A, ID 26 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 26)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 27,
+   "entidad": "Universidad Distrital Francisco Jose De Caldas-Unp",
+   "tipo_entidad": "Educación",
+   "objeto": "Seminario) en normas de información contable para el sector público – NICSP – con énfasis en regulación contable pública para entidades de gobierno, y 2) diplomado en sistema de gestión de calidad con base en las versiones actualizadas de las normas ISO 9001, IS0 14001 y OHSAS, 3",
+   "anio": 2019,
+   "valor_cop": 21240000,
+   "servicio": "Capacitación",
+   "normas": "En el marco del Contrato Interadministrativo No. 648 de 2016, suscrito con la UNIDAD NACIONAL DE PROTECCIÓN (UNP).",
+   "soporte": "RUP de B&A, ID 27 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 27)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 28,
+   "entidad": "Ministerio De Educación Nacional",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestación de los servicios profesionales para el acompañamiento en el mantenimiento y mejora del sistema integrado de gestión- SIG del ministerio de educación nacional.",
+   "anio": 2011,
+   "valor_cop": 78000000,
+   "servicio": "Consultoría",
+   "normas": "Sistema Integrado de Gestión (SIG).",
+   "soporte": "RUP de B&A, ID 28 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 28)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 29,
+   "entidad": "Corporación Autónoma Regional Del Cesar Corpocesar",
+   "tipo_entidad": "Corporaciones autónomas regionales",
+   "objeto": "Consultoría para el apoyo y asesoría en la ejecución de acciones que permitan el ajuste al diseño e implementación del sistema integrado de gestión de acuerdo con los requisitos establecidos en las normas ISO 9001:2008, NTC GP 1000:2009, MECI 1000:2005, SISTEDA E ISO/IEC 17025:20",
+   "anio": 2011,
+   "valor_cop": 86700000,
+   "servicio": "Consultoría",
+   "normas": "ISO 9001:2008, NTCGP 1000:2009, MECI 1000:2005, SISTEDA e ISO/IEC 17025:2005.",
+   "soporte": "RUP de B&A, ID 29 · certificación de la entidad verificada",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 29)",
+   "publicable": true,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 30,
+   "entidad": "Unidad Ejecutora De Saneamiento En El Valle De Cauca Ues Valle",
+   "tipo_entidad": "Empresas de servicios públicos y transporte",
+   "objeto": "Consultoría profesional en el mantenimiento, mejora e implementación del sistema integrado de gestión de la calidad y MECI bajo la norma NTC GP 1000:2009, MECI 1000:2005 para la unidad ejecutora de saneamiento básico del valle del cauca",
+   "anio": 2011,
+   "valor_cop": 86710000,
+   "servicio": "Consultoría",
+   "normas": "MECI (Modelo Estándar de Control Interno), Calidad (NTCGP o ISO, según corresponda al SIG).",
+   "soporte": "RUP de B&A, ID 30 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 30)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 31,
+   "entidad": "Comisión De Regulación De Agua Potable Y Saneamiento Básico (Cra)",
+   "tipo_entidad": "Empresas de servicios públicos y transporte",
+   "objeto": "Prestar los servicios de formación y auditores internos en las normas NTC GP 1000:2009, ISO 9001:2008 y MECI 1000:2005",
+   "anio": 2011,
+   "valor_cop": 4605000,
+   "servicio": "Capacitación",
+   "normas": "NTC GP 1000:2009, ISO 9001:2008 y MECI 1000:2005 y Control Interno Contable",
+   "soporte": "RUP de B&A, ID 31 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 31)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 32,
+   "entidad": "Comando General De Las Fuerzas Militares",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Capacitación no formal: \"seminario de actualización en auditoría y control interno\", para el personal orgánico de la inspección general, inspecciones delegadas ante las unidades operativas mayores y sus equivalentes en las fuerzas navales responsables de las oficinas de control i",
+   "anio": null,
+   "valor_cop": 18850000,
+   "servicio": "Capacitación",
+   "normas": "Control interno",
+   "soporte": "RUP de B&A, ID 32 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 32)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 33,
+   "entidad": "Fondo Nacional De Estupefacientes",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestar el servicio de capacitación en los temas relacionados con la norma técnica de calidad NTC GP 1000:2009 y el modelo estándar de control interno MECI 1000. Efectuar el acompañamiento en la realización de la auditoría interna de calidad de la unidad y la presentación del inf",
+   "anio": 2012,
+   "valor_cop": 56530900,
+   "servicio": "Capacitación",
+   "normas": "NTC GP 1000: 2009, MECI 1000, ISO 14000 (Sistema de Gestión Ambiental), ISO 27000 (Sistema de Seguridad de la Información), COSO ERM ISO 31000 (Sistema de Gesti",
+   "soporte": "RUP de B&A, ID 33 · certificación de la entidad verificada",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 33)",
+   "publicable": true,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 34,
+   "entidad": "Empresa Publica De Alcantarillado De Santander - Empas -",
+   "tipo_entidad": "Empresas de servicios públicos y transporte",
+   "objeto": "Consultoría para la auditoría externa sobre el convenio de facturación conjunta entre EMPAS S.A. y el Acueducto Metropolitano de Bucaramanga S.A. ESP.",
+   "anio": null,
+   "valor_cop": 66700000,
+   "servicio": "Consultoría",
+   "normas": "Auditoría externa",
+   "soporte": "RUP de B&A, ID 34 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 34)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 35,
+   "entidad": "Ministerio De Justicia Y Derecho",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestación de servicios de capacitación para desarrollar un curso de formación en auditor interno integral en los ejes organización – administrativa y planificación bajo las normas de calidad NTC GP 1000:2009, MECI e ISO 1400 y dar entrenamiento en técnicas de auditorías de calid",
+   "anio": 2014,
+   "valor_cop": 24700000,
+   "servicio": "Capacitación",
+   "normas": "NTCGP1000:2009, MECI, ISO 14001.",
+   "soporte": "RUP de B&A, ID 35 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 35)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 36,
+   "entidad": "Ministerio De Educación Nacional",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestar los servicios de acompañamiento y capacitación a las instituciones públicas de educación superior-IES, definidas por el ministerio, en la preparación y alistamiento para la certificación del sistema de gestión de la calidad, armonizando con el sistema de control interno, ",
+   "anio": 2013,
+   "valor_cop": 132407600,
+   "servicio": "Capacitación",
+   "normas": "NTCGP 1000:2009 , MECI 1000:2005",
+   "soporte": "RUP de B&A, ID 36 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 36)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 37,
+   "entidad": "Consejo Superior De La Judicatura",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestar los servicios de diagnóstico y asesoría especializada con acompañamiento en temas propios del sistema integrado de gestión y control de la calidad en el marco de la norma técnica de calidad para la gestión pública - NTC GP 1000:2009 e internacional ISO 9001:2008, así como",
+   "anio": null,
+   "valor_cop": 151677415,
+   "servicio": "Consultoría",
+   "normas": "NTCGP 1000:2009, ISO 9001:2008, Modelo Estándar de Control Interno (\"MECI\"), Manual de Contratación y el Manual de Supervisión",
+   "soporte": "RUP de B&A, ID 37 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 37)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 38,
+   "entidad": "Fondo Nacional De Estupefacientes",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Realizar el acompañamiento para la actualización mantenimiento sostenimiento y mejoramiento del sistema de gestión de calidad de la unidad",
+   "anio": 2013,
+   "valor_cop": 44107303,
+   "servicio": "Consultoría",
+   "normas": "Normas NTC GP 1000:2009 e ISO 9001:2008 , y Modelo Estándar de Control Interno MECI 1000:2005.",
+   "soporte": "RUP de B&A, ID 38 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 38)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 39,
+   "entidad": "Fondo Rotatorio Del Departamento Administrativo Nacional De Estadística - Fondane",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestación de servicios para la realizar un curso de formación y certificación de auditores internos en el SGC de la información, con base en la forma ISO 27001",
+   "anio": null,
+   "valor_cop": 17906920,
+   "servicio": "Capacitación",
+   "normas": "Auditores Internos SGC ISO 27001",
+   "soporte": "RUP de B&A, ID 39 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 39)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 40,
+   "entidad": "Superintendencia De Economia Solidaria",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestación de servicios de capacitación para desarrollar un curso de formación de auditores internos de calidad bajo las normas ISO 9001, NTC GP 1000, ISO 27001 e ISO 14001",
+   "anio": 2013,
+   "valor_cop": 17850000,
+   "servicio": "Capacitación",
+   "normas": "Capacitación Normas ISO 9001, NTC GP 1000, ISO 27001 e is",
+   "soporte": "RUP de B&A, ID 40 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 40)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 41,
+   "entidad": "Minería Y Medio Ambiente Estudio Jurídico Ltda",
+   "tipo_entidad": "Sector privado",
+   "objeto": "Estimular los costos de cierre de minas, diseñar y validar la matriz de los costos, analizar la información y la estructura de los datos del censo, definir las variables endógenas y exógenas, simular y ajustar los modelos al caso colombiano.",
+   "anio": null,
+   "valor_cop": 24000000,
+   "servicio": "Otros servicios",
+   "normas": "Análisis costos",
+   "soporte": "RUP de B&A, ID 41 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 41)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 42,
+   "entidad": "Fondo Nacional Para La Defensa De La Libertad Personal Fondelibertad",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Contratar el servicio de toma física de inventarios, plaquetización y depuración de la información de los bienes de propiedad y/o bajo custodia de la Dirección Operativa para la defensa de la Libertad Personal)",
+   "anio": null,
+   "valor_cop": 48720000,
+   "servicio": "Consultoría",
+   "normas": "Solicitado en el pliego de condiciones",
+   "soporte": "RUP de B&A, ID 42 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 42)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 43,
+   "entidad": "Corporación Para El Desarrollo Sostenible Del Área De Manejo Especial La Macarena \"Cormacarena\"",
+   "tipo_entidad": "Corporaciones autónomas regionales",
+   "objeto": "Capacitación para 20 servidores públicos como auditor interno integral ISO 9001, ISO 14001 y OHSAS 18001, de la Corporación para el Desarrollo Sostenible del Área de Manejo Especial la Macarena \"CORMACARENA\"",
+   "anio": null,
+   "valor_cop": 7890000,
+   "servicio": "Consultoría",
+   "normas": "MECI (Modelo Estándar de Control Interno) y SGC (Sistema de Gestión de la Calidad), siendo el contexto de origen el Contrato de Consultoría No. 049 de 2013 de C",
+   "soporte": "RUP de B&A, ID 43 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 43)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 44,
+   "entidad": "Corporación Autónoma Regional Del Alto Magdalena - Cam",
+   "tipo_entidad": "Corporaciones autónomas regionales",
+   "objeto": "Asesoría y acompañamiento para el mejoramiento del sistema integrado de gestión de la CAM bajo las normas internacionales ISO 9001, e ISO 14001 y la NTC GP 1000, como estrategia para el mejoramiento continuo de la corporación en el desarrollo de sus procesos misionales de ejecuci",
+   "anio": 2011,
+   "valor_cop": 7000000,
+   "servicio": "Consultoría",
+   "normas": "Sistema de Gestión de la Calidad (SGC) y Modelo Estándar de Control Interno (MECI), siendo el contexto de origen el Contrato de Consultoría No. 001 de 2013 de l",
+   "soporte": "RUP de B&A, ID 44 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 44)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 45,
+   "entidad": "Unidad Ejecutora De Saneamiento En El Valle De Cauca Ues Valle",
+   "tipo_entidad": "Empresas de servicios públicos y transporte",
+   "objeto": "Consultoría profesional en el mantenimiento, mejora e implementación del sistema integrado de gestión de la calidad y MECI bajo la norma NTC GP 1000:2009, MECI 1000:2005 para la unidad ejecutora de saneamiento básico del valle del cauca",
+   "anio": 2011,
+   "valor_cop": 86710000,
+   "servicio": "Consultoría",
+   "normas": "Sistema de Gestión de la Calidad (SGC) y Modelo Estándar de Control Interno (MECI) , siendo el contexto de origen el Contrato de Prestación de Servicios No. 000",
+   "soporte": "RUP de B&A, ID 45 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 45)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 46,
+   "entidad": "Instituto Distrital De Patrimonio Cultural",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Programa de capacitación para auditores internos certificados en los modelos NTC GP 1000:09, ISO 9001:08 y MECI 1000",
+   "anio": 2011,
+   "valor_cop": 8000000,
+   "servicio": "Capacitación",
+   "normas": "Basado en los modelos NTCGP1000:09, ISO 9001:08, y MECI: 1000:2005. El contexto es el Contrato de Prestación de Servicios Profesionales N° 44",
+   "soporte": "RUP de B&A, ID 46 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 46)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 47,
+   "entidad": "Comision Nacional Del Servicio Civil",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestar el servicio de capacitación a los servidores de la entidad para apoyar la ejecución del Plan Institucional de Capacitación . Vigencia 2019",
+   "anio": 2019,
+   "valor_cop": 16300000,
+   "servicio": "Capacitación",
+   "normas": "Proceso de Mínima Cuantía Nº CNSC-MC-017 DE 2019",
+   "soporte": "RUP de B&A, ID 47 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 47)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 48,
+   "entidad": "Asociación De Pescadores De Candelaria - Chimichagua \"Asopescan\"",
+   "tipo_entidad": "Cooperación internacional y ESAL",
+   "objeto": "Prestación de servicios para realización de auditoría financiera y técnica acorde a los lineamientos de la unión europea y del ministerio de comercio, industria y turismo dentro del proyecto denominado fortalecimiento de asociaciones comunitarias de transformación de la Taruya pa",
+   "anio": 2009,
+   "valor_cop": 4900000,
+   "servicio": "Auditoría",
+   "normas": "Lineamientos de la Unión Europea y del Ministerio de Comercio, Industria y Turismo.",
+   "soporte": "RUP de B&A, ID 48 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 48)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 49,
+   "entidad": "Fondo Nacional De Estupefacientes",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "1) levantar el inventario físico de los bienes de propiedad del fondo nacional de estupefacientes, tanto de los que se encuentren en servicio como de los que ya están fuera de el. 2) elaborar el manual de procesos y procedimientos para el almacén y los activos fijos y los activos",
+   "anio": 2009,
+   "valor_cop": 22040000,
+   "servicio": "Otros servicios",
+   "normas": "El levantamiento aplica a bienes de propiedad del Fondo Nacional de Estupefacientes, e incluye la documentación de los procesos del almacén.",
+   "soporte": "RUP de B&A, ID 49 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 49)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 50,
+   "entidad": "Corporacion Autonoma Regional Del Rio Grande De La Magdalena",
+   "tipo_entidad": "Corporaciones autónomas regionales",
+   "objeto": "Servicios profesionales de consultoría para la estructuración e implementación del modelo integrado de planeación y gestión MIPG para el fortalecimiento de la Corporación",
+   "anio": 2019,
+   "valor_cop": 84894600,
+   "servicio": "Consultoría",
+   "normas": "Norma ISO 9001:2015 y MIPG (Modelo Integrado de Planeación y Gestión), siendo el contexto de origen el Contrato de Consultoría No. 0-0212-2019 de CORMAGDALENA.",
+   "soporte": "RUP de B&A, ID 50 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 50)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 51,
+   "entidad": "Universidad Distrital Francisco Jose De Caldas-Unp",
+   "tipo_entidad": "Educación",
+   "objeto": "Seminario) en normas de información contable para el sector público – NICSP – con énfasis en regulación contable pública para entidades de gobierno, y 2) diplomado en sistema de gestión de calidad con base en las versiones actualizadas de las normas ISO 9001, IS0 14001 y OHSAS, 3",
+   "anio": 2019,
+   "valor_cop": 21240000,
+   "servicio": "Consultoría",
+   "normas": "El servicio se presta en el marco del Contrato Interadministrativo 648 de 2016 suscrito con la Unidad Nacional de Protección (UNP), siendo un servicio de apoyo ",
+   "soporte": "RUP de B&A, ID 51 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 51)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 52,
+   "entidad": "Municipio De Madrid",
+   "tipo_entidad": "Entidades territoriales",
+   "objeto": "SIN DATO",
+   "anio": null,
+   "valor_cop": null,
+   "servicio": "Otros servicios",
+   "normas": null,
+   "soporte": "RUP de B&A, ID 52 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 52)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 53,
+   "entidad": "Corporación Para El Desarrollo Sostenible Del Área De Manejo Especial La Macarena \"Cormacarena\"",
+   "tipo_entidad": "Corporaciones autónomas regionales",
+   "objeto": "Capacitación para 20 servidores públicos como auditor interno integral ISO 9001, ISO 14001 y OHSAS 18001, de la Corporación para el Desarrollo Sostenible del Área de Manejo Especial la Macarena \"CORMACARENA\"",
+   "anio": null,
+   "valor_cop": 7890000,
+   "servicio": "Capacitación",
+   "normas": "Normas ISO 9001, ISO 14001 y OHSAS 18001. El contexto es el Contrato de Prestación de Servicios No. PS-GCT.2.7.12-31 de CORMACARENA.",
+   "soporte": "RUP de B&A, ID 53 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 53)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 54,
+   "entidad": "Sistema De Transporte Público De Santa Marta S.A.S",
+   "tipo_entidad": "Empresas de servicios públicos y transporte",
+   "objeto": "Prestación del servicios profesionales de asesoría y capacitación para el diseño y modelamiento del sistema estratégico de calidad del SETP Santa marta S.A.S, bajo la NTC ISO 9001:2008 y su modelamiento bajo Business Process Management.",
+   "anio": 2010,
+   "valor_cop": 100000000,
+   "servicio": "Consultoría",
+   "normas": "Normas NTCGP 1000:2009, ISO 9001:2008 y MECI 1000:2005. El contexto es el Contrato de Consultoría No. 042-2012 de CORMAGDALENA.",
+   "soporte": "RUP de B&A, ID 54 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 54)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 55,
+   "entidad": "Corporación Autónoma Regional Para La Defensa De La Meseta De Bucaramanga, Cdmb",
+   "tipo_entidad": "Corporaciones autónomas regionales",
+   "objeto": "Servicios profesionales para realizar la evaluación independiente del sistema integrado de gestión y control, fortalecimiento de las competencias del personal a partir de la ejecución de capacitaciones y orientación para la aplicación de los conceptos relacionados con fundamentos",
+   "anio": 2006,
+   "valor_cop": 72000000,
+   "servicio": "Consultoría",
+   "normas": "Norma NTC GP 1000:2004 y el Modelo Estándar de Control Interno (MECI). El contexto es el Contrato de Prestación de Servicios No. 24807 de la CDMB.",
+   "soporte": "RUP de B&A, ID 55 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 55)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 56,
+   "entidad": "Superintendencia De Economia Solidaria",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Servicios de consultoría para realizar la implementación y acompañamiento del Sistema de Gestión Medioambiental bajo los requisitos de la norma ISO 14001",
+   "anio": 2014,
+   "valor_cop": 23000000,
+   "servicio": "Capacitación",
+   "normas": "SGC (Sistema de Gestión de la Calidad) y MECI (Modelo Estándar de Control Interno). El contexto es el Contrato de Consultoría No. CM-065-2014 de SUPERSOLIDARIA.",
+   "soporte": "RUP de B&A, ID 56 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 56)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 57,
+   "entidad": "Unidad Administrativa Especial Agencia Nacional De Defensa Jurídica Del Estado",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Prestar los servicios de capacitación no formal, consistente en un curso de actualización en la norma NTC ISO 9001:2015 y técnicas de auditoría para los servidores que conforman el grupo de auditores internos, equipo de planeación y equipo MECI",
+   "anio": null,
+   "valor_cop": 4524000,
+   "servicio": "Capacitación",
+   "normas": "Norma NTC ISO 9001:2015 y contexto del Contrato de prestación de servicios No. 155 de 2016 de la ANDJE.",
+   "soporte": "RUP de B&A, ID 57 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 57)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 58,
+   "entidad": "Veeduría Distrital",
+   "tipo_entidad": "Órganos de control",
+   "objeto": "Prestar servicios de consultoría para realizar el diseño de un modelo del sistema de control interno en el distrito capital",
+   "anio": 2013,
+   "valor_cop": 69999999,
+   "servicio": "Consultoría",
+   "normas": "Sistema control interno",
+   "soporte": "RUP de B&A, ID 58 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 58)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 59,
+   "entidad": "Vallecaucana De Aguas",
+   "tipo_entidad": "Empresas de servicios públicos y transporte",
+   "objeto": "Formular un programa de gestión del riesgo para el sector de agua y saneamiento básico en el valle del cauca de acuerdo al pliego de condiciones, anexos, estudios previos y a la propuesta presentada por el contratista el cual hace parte integral del presente contrato",
+   "anio": null,
+   "valor_cop": 149988000,
+   "servicio": "Consultoría",
+   "normas": "PDA Valle del Cauca (Programa Departamental para la Gestión del Riesgo) y Contrato de Consultoría No. 200-13-04-002.",
+   "soporte": "RUP de B&A, ID 59 · soporte en verificación",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 59)",
+   "publicable": false,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 60,
+   "entidad": "Organización Internacional Para Las Migraciones -Oim - Urt",
+   "tipo_entidad": "Cooperación internacional y ESAL",
+   "objeto": "Consultoría para formar auditores internos y apoyar la realización de auditorías que permitan establecer el nivel de implementación del SIG",
+   "anio": 2014,
+   "valor_cop": 87100000,
+   "servicio": "Capacitación",
+   "normas": "SIG (Sistemas Integrales de Gestión). Contexto de origen: Operador PSPJ-2042 de 2014 CM-137 (OIM).",
+   "soporte": "RUP de B&A, ID 60 · certificación de la entidad verificada",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 60)",
+   "publicable": true,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 61,
+   "entidad": "Ministerio De Educación Nacional",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "Rediseñar los macroproceso de atención al ciudadano y gestión documental del sistema integrado de gestión del MEN, para que estos respondan efectiva y eficientemente a las necesidades y expectativas de los clientes del ministerio y del país",
+   "anio": 2013,
+   "valor_cop": 319373798,
+   "servicio": "Consultoría",
+   "normas": "Sistema Integrado de Gestión del Ministerio de Educación Nacional. El contexto es el Contrato 1341 de 2013 suscrito con la Unión Temporal AVANCE ORGANIZACIONAL ",
+   "soporte": "RUP de B&A, ID 61 · certificación de la entidad verificada",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 61)",
+   "publicable": true,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 62,
+   "entidad": "Fondo De Pasivo Social De Ferrocarriles Nacionales De Colombia",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "PRESTAR LOS SERVICIOS EDUCATIVOS Y DE FORMACIÓN CON EL FIN DE. DESARROLLAR LAS ACTIVIDADES CONTENIDAS EN EL PLAN INSTITUCIONAL",
+   "anio": 2021,
+   "valor_cop": 22419600,
+   "servicio": "Otros servicios",
+   "normas": "IPMC-003-2021 (Número de Contrato) del FONDO DE PASIVO SOCIAL FERROCARRILES NACIONALES DE COLOMBIA.",
+   "soporte": "RUP de B&A, ID 62 · certificación de la entidad verificada",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 62)",
+   "publicable": true,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 63,
+   "entidad": "Contraloría Distrital De Santa Marta",
+   "tipo_entidad": "Órganos de control",
+   "objeto": "PRESTAR LOS SERVICIOS PROFESIONALES DE ASESORÍA Y ACOMPAÑAMIENTO A LA CONTRALORÍA DISTRITAL DE SANTA MARTA EN EL PROCESO DE IMPLEMENTACIÓN DE LA GUÍA DE AUDITORÍA TERRITORIAL - GAT - EN CUMPLIMIENTO DE LAS DISPOSICIONES DEL ACTO LEGISLATIVO 04/2019 Y DECRETO 403/2020",
+   "anio": 2021,
+   "valor_cop": 38500000,
+   "servicio": "Otros servicios",
+   "normas": null,
+   "soporte": "RUP de B&A, ID 63 · certificación de la entidad verificada",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 63)",
+   "publicable": true,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  },
+  {
+   "id_rup": 64,
+   "entidad": "Unidad Administrativa Especial Junta Central De Contadores",
+   "tipo_entidad": "Entidades del orden nacional",
+   "objeto": "ADQUIRIR LOS SERVICIOS DE CAPACITACIÓN PARA LOS SERVIDORES PÚBLICOS DE LA UNIDAD ADMINISTRATIVA ESPECIAL JUNTA CENTRAL DE CONTADORES, DE CONFORMIDAD CON EL PLAN INSTITUCIONAL DE CAPACITACIÓN DE LA ENTIDAD",
+   "anio": 2025,
+   "valor_cop": 3589103,
+   "servicio": "Otros servicios",
+   "normas": null,
+   "soporte": "RUP de B&A, ID 64 · certificación de la entidad verificada",
+   "secop_url": null,
+   "permiso_ref": "Contrato estatal inscrito en el registro público RUP de B&A (ID 64)",
+   "publicable": true,
+   "fuentes": [
+    "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+   ]
+  }
+ ]
 }

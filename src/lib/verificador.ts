@@ -61,7 +61,9 @@ function recorrer(valor: unknown, ctx: Ctx, out: Hallazgo[]) {
     const clave = ctx.ruta.split('.').pop() ?? '';
     if (CLAVES_NO_TEXTO.has(clave)) return;
     const permitirFB = ctx.archivo.endsWith('comun.json') && ctx.ruta === 'regimen.FB';
-    out.push(...verificarTexto(valor, ctx, permitirFB));
+    // Las citas de fuente nombran documentos reales («Certificado RUP»): no son afirmaciones de B&A.
+    const esCita = /(^|\.)fuentes?(\[\d+\])?$/.test(ctx.ruta);
+    if (!esCita) out.push(...verificarTexto(valor, ctx, permitirFB));
     const sinPendiente = normalizar(valor.replace(PENDIENTE, ' '));
     if (!clave.startsWith('fuente') && CIFRA_TRAYECTORIA.test(sinPendiente) && !ctx.conFuentes) {
       out.push({ archivo: ctx.archivo, ruta: ctx.ruta, regla: 'cifra-sin-fuente', detalle: `«${valor.slice(0, 120)}»` });

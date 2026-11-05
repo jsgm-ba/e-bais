@@ -36,6 +36,11 @@ export default function CKOP() {
             </div>
           ))}
         </section>
+        <section aria-labelledby="traccion-t" className="mt-8 rounded-sm border border-line bg-surface-raised p-4">
+          <h2 id="traccion-t" className="text-h4 font-semibold">{k.traccion.titulo}</h2>
+          <ul className="mt-3 grid gap-4 md:grid-cols-2">{k.traccion.items.map((t) => <li key={t.etiqueta} className="flex items-baseline gap-3"><span className="font-mono text-kpi font-semibold tabular text-accent">{t.cifra}</span><span className="text-body-sm text-ink-muted">{t.etiqueta}</span></li>)}</ul>
+          <p className="mt-2 text-caption text-ink-muted">Fuente: {k.traccion.fuentes.join(' · ')}</p>
+        </section>
         <Section id="como" titulo={k.como.titulo} denso className="mt-8">
           <ol className="grid gap-2 md:grid-cols-4">{k.como.pasos.map((p, i) => <li key={p} className="rounded-sm border border-line p-3 text-body-sm"><span className="font-mono text-data text-accent">{i + 1}.</span> {p}</li>)}</ol>
         </Section>

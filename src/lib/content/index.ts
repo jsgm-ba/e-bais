@@ -14,6 +14,8 @@ import soluciones from '@content/soluciones.json';
 import legal from '@content/legal.json';
 import jsgm from '@content/jsgm.json';
 import aliados from '@content/aliados.json';
+import mmp from '@content/mmp.json';
+import redExpertos from '@content/red_expertos.json';
 import cursoC601 from '@content/cursos/c6-01.json';
 import { esPreview } from '../preview';
 
@@ -31,6 +33,8 @@ export const contenido = {
   legal: S.Legal.parse(legal),
   jsgm: S.JSGM.parse(jsgm),
   aliados: S.Aliados.parse(aliados),
+  mmp: S.MMP.parse(mmp),
+  redExpertos: S.RedExpertos.parse(redExpertos),
 };
 
 const todosLosProductos = S.Catalogo.parse(catalogo);

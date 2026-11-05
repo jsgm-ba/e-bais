@@ -1,29 +1,360 @@
 {
- "_estado": {"publicacion": "borrador", "aprobado_por": null, "fuentes": ["PROMPT 1B v2 (04-nov-2026)", "Catálogo Maestro 1B, versión 05-nov-2026"]},
- "meta": {"title": "B&A · Consultoría y auditoría para el sector público", "description": "Control interno, MIPG, fenecimiento de la cuenta y sistemas de gestión ISO para entidades públicas en Colombia."},
+ "_estado": {
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "PROMPT 1B v2 (04-nov-2026)",
+   "Catálogo Maestro 1B, versión 05-nov-2026"
+  ]
+ },
+ "meta": {
+  "title": "B&A · Consultoría y auditoría para el sector público",
+  "description": "Control interno, MIPG, fenecimiento de la cuenta y sistemas de gestión ISO para entidades públicas en Colombia."
+ },
  "hero": {
-  "titular": "Que la Contraloría encuentre un control interno que funciona, no uno que solo existe.",
-  "bajada": "Business & Auditing Consultores acompaña a entidades públicas en control interno, MIPG, control fiscal y sistemas de gestión ISO, con métodos que dejan evidencia verificable.",
-  "accion_principal": {"t": "Solicite una cotización", "h": "/ba/contacto?motivo=cotizacion"},
-  "accion_secundaria": {"t": "Ver servicios", "h": "/ba/servicios"}
+  "antetitulo": "Business & Auditing Consultores · desde 1996",
+  "titular": "Treinta años leyendo al Estado desde adentro.",
+  "subtitular": "Control interno, control fiscal y sistemas de gestión que resisten la auditoría, diseñados por quienes han estado del lado de la Contraloría.",
+  "bajada": "B&A acompaña a entidades públicas, empresas y organizaciones de cooperación a convertir la norma en capacidad instalada: procesos que funcionan, evidencia que se sostiene y equipos que saben hacerlo sin el consultor.",
+  "fuentes": [
+   "Certificado RUP 00036564 (inscrito 29-abr-2026, certificado 21-may-2026)",
+   "Dossier Estratégico B&Ai, capítulo 4 (21-ago-2026)"
+  ],
+  "accion_principal": {
+   "t": "Solicite una cotización",
+   "h": "/ba/contacto?motivo=cotizacion"
+  },
+  "accion_secundaria": {
+   "t": "Ver la experiencia",
+   "h": "/ba/experiencia"
+  }
  },
  "nota_auditoria": "La auditoría de certificación la realiza un organismo de certificación acreditado; B&A trabaja con un aliado certificador.",
  "lineas": [
-  {"slug": "fenecimiento", "titulo": "Cuenta fenecida y opinión contable sin salvedades", "problema": "La Contraloría no fenece la cuenta o emite una opinión con salvedades, y el plan de mejoramiento no cierra las causas.", "para": "Entidades con cuenta no fenecida u opinión negativa o con salvedades (C5).", "metodo": ["Lectura del dictamen y de los hallazgos que explican la opinión", "Mapa de causas por proceso contable con la Resolución CGN 347", "Plan de 90 días con responsables y evidencia por hallazgo", "Validación de cifras antes del cierre"], "entregables": ["Diagnóstico de causas del no fenecimiento", "Plan de mejoramiento con evidencia de efectividad", "Lista de verificación previa al cierre"], "productos": ["C5-01", "C5-02", "C5-04"], "auditoria": false},
-  {"slug": "mipg-furag", "titulo": "MIPG y FURAG: recuperar los puntos que la entidad pierde", "problema": "El Índice de Desempeño Institucional baja en políticas concretas y nadie sabe qué evidencia faltó.", "para": "Entidades públicas que quieren implementar o fortalecer MIPG (C4) o que tienen el FURAG bajo (C5).", "metodo": ["Lectura del resultado FURAG por política", "Diagnóstico MIPG-ISO en 5 días", "Plan de ajuste con la versión vigente del Manual Operativo", "Acompañamiento a la siguiente medición"], "entregables": ["Informe de brechas por política", "Plan de ajuste priorizado", "Tablero de seguimiento"], "productos": ["C5-03", "C4-01"], "auditoria": false},
-  {"slug": "control-interno", "titulo": "Control interno que funciona: MECI y líneas de aseguramiento", "problema": "El sistema de control interno existe en el papel, pero los riesgos se materializan y los hallazgos se repiten.", "para": "Oficinas de control interno y comités institucionales (C4).", "metodo": ["Revisión de las líneas de defensa y del mapa de riesgos", "Pruebas de diseño y de efectividad de controles", "Método de cierre de hallazgos con evidencia", "Informe al comité"], "entregables": ["Matriz de controles probada", "Informe de efectividad", "Plan de cierre de hallazgos"], "productos": ["C4-02", "C5-04"], "auditoria": false},
-  {"slug": "sistemas-iso", "titulo": "Sistemas de gestión ISO listos para la auditoría de certificación", "problema": "La entidad o la empresa necesita implementar o hacer la transición a una nueva edición de una norma ISO.", "para": "Entidades públicas, empresas y fundaciones (C2, C3, C4, C5).", "metodo": ["Diagnóstico de brecha frente a la edición vigente", "Implementación por procesos con el ciclo PHVA", "Auditoría interna con la ISO 19011", "Preparación para la auditoría del organismo certificador"], "entregables": ["Matriz de requisitos y brechas", "Documentación del sistema", "Informe de auditoría interna"], "productos": ["C2-06", "C5-05"], "auditoria": true},
-  {"slug": "auditoria-contratacion", "titulo": "Auditoría interna a la gestión contractual", "problema": "Los plazos de supervisión se pierden y los expedientes no resisten una auditoría.", "para": "Entidades públicas y oficinas de control interno (C4).", "metodo": ["Muestra de expedientes por modalidad", "Semáforo de plazos y obligaciones", "Revisión asistida por IA de estudios previos y supervisión", "Informe con recomendaciones"], "entregables": ["Informe de auditoría", "Semáforo contractual", "Lista de verificación de supervisión"], "productos": ["C4-06", "C4-07"], "auditoria": false},
-  {"slug": "capacitacion-pic", "titulo": "Capacitación del PIC con evidencia de impacto", "problema": "El Plan Institucional de Capacitación se ejecuta, pero no deja evidencia de que cambió algo en el puesto.", "para": "Talento humano de entidades públicas (C4).", "metodo": ["Lectura de las necesidades del PIC y de las encuestas", "Módulos con un producto que el servidor se lleva", "Evaluación de satisfacción y de aplicación", "Informe de impacto"], "entregables": ["Módulos dictados con su producto", "Encuestas tabuladas", "Informe de impacto"], "productos": ["C4-03", "C4-04"], "auditoria": false}
+  {
+   "slug": "fenecimiento",
+   "titulo": "Cuenta fenecida y opinión contable sin salvedades",
+   "problema": "La Contraloría no fenece la cuenta o emite una opinión con salvedades, y el plan de mejoramiento no cierra las causas.",
+   "para": "Entidades con cuenta no fenecida u opinión negativa o con salvedades (C5).",
+   "metodo": [
+    "Lectura del dictamen y de los hallazgos que explican la opinión",
+    "Mapa de causas por proceso contable con la Resolución CGN 347",
+    "Plan de 90 días con responsables y evidencia por hallazgo",
+    "Validación de cifras antes del cierre"
+   ],
+   "entregables": [
+    "Diagnóstico de causas del no fenecimiento",
+    "Plan de mejoramiento con evidencia de efectividad",
+    "Lista de verificación previa al cierre"
+   ],
+   "productos": [
+    "C5-01",
+    "C5-02",
+    "C5-04"
+   ],
+   "auditoria": false
+  },
+  {
+   "slug": "mipg-furag",
+   "titulo": "MIPG y FURAG: recuperar los puntos que la entidad pierde",
+   "problema": "El Índice de Desempeño Institucional baja en políticas concretas y nadie sabe qué evidencia faltó.",
+   "para": "Entidades públicas que quieren implementar o fortalecer MIPG (C4) o que tienen el FURAG bajo (C5).",
+   "metodo": [
+    "Lectura del resultado FURAG por política",
+    "Diagnóstico MIPG-ISO en 5 días",
+    "Plan de ajuste con la versión vigente del Manual Operativo",
+    "Acompañamiento a la siguiente medición"
+   ],
+   "entregables": [
+    "Informe de brechas por política",
+    "Plan de ajuste priorizado",
+    "Tablero de seguimiento"
+   ],
+   "productos": [
+    "C5-03",
+    "C4-01"
+   ],
+   "auditoria": false
+  },
+  {
+   "slug": "control-interno",
+   "titulo": "Control interno que funciona: MECI y líneas de aseguramiento",
+   "problema": "El sistema de control interno existe en el papel, pero los riesgos se materializan y los hallazgos se repiten.",
+   "para": "Oficinas de control interno y comités institucionales (C4).",
+   "metodo": [
+    "Revisión de las líneas de defensa y del mapa de riesgos",
+    "Pruebas de diseño y de efectividad de controles",
+    "Método de cierre de hallazgos con evidencia",
+    "Informe al comité"
+   ],
+   "entregables": [
+    "Matriz de controles probada",
+    "Informe de efectividad",
+    "Plan de cierre de hallazgos"
+   ],
+   "productos": [
+    "C4-02",
+    "C5-04"
+   ],
+   "auditoria": false
+  },
+  {
+   "slug": "sistemas-iso",
+   "titulo": "Sistemas de gestión ISO listos para la auditoría de certificación",
+   "problema": "La entidad o la empresa necesita implementar o hacer la transición a una nueva edición de una norma ISO.",
+   "para": "Entidades públicas, empresas y fundaciones (C2, C3, C4, C5).",
+   "metodo": [
+    "Diagnóstico de brecha frente a la edición vigente",
+    "Implementación por procesos con el ciclo PHVA",
+    "Auditoría interna con la ISO 19011",
+    "Preparación para la auditoría del organismo certificador"
+   ],
+   "entregables": [
+    "Matriz de requisitos y brechas",
+    "Documentación del sistema",
+    "Informe de auditoría interna"
+   ],
+   "productos": [
+    "C2-06",
+    "C5-05"
+   ],
+   "auditoria": true
+  },
+  {
+   "slug": "auditoria-contratacion",
+   "titulo": "Auditoría interna a la gestión contractual",
+   "problema": "Los plazos de supervisión se pierden y los expedientes no resisten una auditoría.",
+   "para": "Entidades públicas y oficinas de control interno (C4).",
+   "metodo": [
+    "Muestra de expedientes por modalidad",
+    "Semáforo de plazos y obligaciones",
+    "Revisión asistida por IA de estudios previos y supervisión",
+    "Informe con recomendaciones"
+   ],
+   "entregables": [
+    "Informe de auditoría",
+    "Semáforo contractual",
+    "Lista de verificación de supervisión"
+   ],
+   "productos": [
+    "C4-06",
+    "C4-07"
+   ],
+   "auditoria": false
+  },
+  {
+   "slug": "capacitacion-pic",
+   "titulo": "Capacitación del PIC con evidencia de impacto",
+   "problema": "El Plan Institucional de Capacitación se ejecuta, pero no deja evidencia de que cambió algo en el puesto.",
+   "para": "Talento humano de entidades públicas (C4).",
+   "metodo": [
+    "Lectura de las necesidades del PIC y de las encuestas",
+    "Módulos con un producto que el servidor se lleva",
+    "Evaluación de satisfacción y de aplicación",
+    "Informe de impacto"
+   ],
+   "entregables": [
+    "Módulos dictados con su producto",
+    "Encuestas tabuladas",
+    "Informe de impacto"
+   ],
+   "productos": [
+    "C4-03",
+    "C4-04"
+   ],
+   "auditoria": false
+  }
  ],
- "experiencia": {"titulo": "Experiencia verificable", "bajada": "Solo publicamos contratos con soporte y con enlace a SECOP cuando es público.", "en_validacion": "En validación: estamos revisando cada contrato contra su soporte antes de publicarlo.", "columnas": ["Entidad", "Objeto", "Año", "Valor", "Soporte"]},
+ "experiencia": {
+  "titulo": "Experiencia verificable",
+  "bajada": "Solo publicamos contratos con soporte y con enlace a SECOP cuando es público.",
+  "en_validacion": "En validación: estamos revisando cada contrato contra su soporte antes de publicarlo.",
+  "columnas": [
+   "Entidad",
+   "Objeto",
+   "Año",
+   "Valor",
+   "Soporte"
+  ]
+ },
  "legado": {
   "titulo": "El criterio detrás de B&A",
   "bajada": "Marisol Muñoz Peralta, directora técnica de B&A.",
-  "perfil": ["Contadora pública y magíster en Auditoría de Sistemas de Computación.", "Experta en control fiscal.", "Formada como auditora líder en ISO 9001, 14001, 45001, 50001, 27001 y 19011, y en PHVA, MECI y MIPG."],
-  "fuentes": ["PROMPT 1B v2, contexto verificado (04-nov-2026)"],
+  "perfil": [
+   "Contadora pública y magíster en Auditoría de Sistemas de Computación.",
+   "Experta en control fiscal.",
+   "Formada como auditora líder en ISO 9001, 14001, 45001, 50001, 27001 y 19011, y en PHVA, MECI y MIPG."
+  ],
+  "fuentes": [
+   "PROMPT 1B v2, contexto verificado (04-nov-2026)"
+  ],
   "trayectoria": "[[PENDIENTE: confirmar trayectoria con soporte: 25+ años (Perfil-Firma) frente a 30 años (fundación 17-dic-1996)]]",
-  "como_lee": {"titulo": "Cómo lee cada tipo de entidad", "texto": "[[PENDIENTE: matriz de particularidades por tipo de entidad de MMP (Fase 1 del 1B)]]"}
+  "como_lee": {
+   "titulo": "Cómo lee cada tipo de entidad",
+   "texto": "[[PENDIENTE: matriz de particularidades por tipo de entidad de MMP (Fase 1 del 1B)]]"
+  }
  },
- "contacto": {"titulo": "Cuéntenos qué necesita resolver", "bajada": "Le respondemos con una propuesta o con una pregunta concreta.", "motivos": [{"v": "cotizacion", "t": "Cotizar un PIC o un plan"}, {"v": "consultoria", "t": "Consultoría o auditoría"}, {"v": "soluciones", "t": "Soluciones de IA a la medida"}, {"v": "otro", "t": "Otro"}]}
+ "contacto": {
+  "titulo": "Cuéntenos qué necesita resolver",
+  "bajada": "Le respondemos con una propuesta o con una pregunta concreta.",
+  "motivos": [
+   {
+    "v": "cotizacion",
+    "t": "Cotizar un PIC o un plan"
+   },
+   {
+    "v": "consultoria",
+    "t": "Consultoría o auditoría"
+   },
+   {
+    "v": "soluciones",
+    "t": "Soluciones de IA a la medida"
+   },
+   {
+    "v": "otro",
+    "t": "Otro"
+   }
+  ]
+ },
+ "prueba": {
+  "titulo": "La evidencia, con su fuente",
+  "items": [
+   {
+    "cifra": "1996",
+    "etiqueta": "Año de constitución, como Business & Laws Consultores",
+    "fuentes": [
+     "Certificado RUP 00036564 (inscrito 29-abr-2026, certificado 21-may-2026)",
+     "Dossier Estratégico B&Ai, capítulo 4 (21-ago-2026)"
+    ]
+   },
+   {
+    "cifra": "64",
+    "etiqueta": "contratos estatales inscritos en el RUP de B&A, 2006 a 2025",
+    "fuentes": [
+     "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+    ]
+   },
+   {
+    "cifra": "47",
+    "etiqueta": "entidades contratantes distintas: ministerios, CAR, alcaldías, universidades y cooperación internacional",
+    "fuentes": [
+     "Maestro de Experiencia B&A + MMP, hoja BA_Experiencia_Depurada (21-ago-2026), basada en el RUP de B&A"
+    ]
+   },
+   {
+    "cifra": "0",
+    "etiqueta": "sanciones o inhabilidades registradas en el RUP",
+    "fuentes": [
+     "Certificado RUP 00036564 (inscrito 29-abr-2026, certificado 21-may-2026)"
+    ]
+   },
+   {
+    "cifra": "525",
+    "etiqueta": "profesionales en la red de expertos, con 19 auditores líderes calificados por sector IAF",
+    "fuentes": [
+     "Maestro de Auditores y Expertos (21-ago-2026); perfiles en verificación"
+    ]
+   }
+  ]
+ },
+ "etapas": {
+  "titulo": "Treinta años en cuatro etapas",
+  "fuentes": [
+   "Dossier Estratégico B&Ai, capítulo 4 (21-ago-2026)"
+  ],
+  "items": [
+   {
+    "periodo": "1996–2005",
+    "t": "Fundación",
+    "d": "Nace como Business & Laws Consultores, con servicios jurídicos, contables y de auditoría. Se construye la base de relacionamiento institucional."
+   },
+   {
+    "periodo": "2005–2013",
+    "t": "Consolidación pública",
+    "d": "Adopta la razón social actual y se especializa en NTCGP 1000 y MECI, los estándares obligatorios del sector público de la época."
+   },
+   {
+    "periodo": "2014–2019",
+    "t": "Escala por alianza",
+    "d": "Uniones temporales y cooperación internacional: OIM, USAID, Fondelibertad y el Ministerio de Educación Nacional."
+   },
+   {
+    "periodo": "2020–2026",
+    "t": "Transición a B&Ai",
+    "d": "Migración a MIPG, auditoría interna multinorma y el inicio de la transformación digital con IA."
+   }
+  ],
+  "hilo": "El hilo es el mismo en las cuatro: entender la norma antes que al cliente, y dejar capacidad instalada en la entidad en lugar de un informe."
+ },
+ "capacidades": {
+  "titulo": "Capacidades acreditadas",
+  "bajada": "Contratos que acreditan cada capacidad en la base consolidada de B&A y de MMP como persona natural (89 contratos). Un contrato puede acreditar varias.",
+  "fuentes": [
+   "Dossier Estratégico B&Ai, capítulo 4 (21-ago-2026)"
+  ],
+  "items": [
+   {
+    "t": "Control interno",
+    "n": 61
+   },
+   {
+    "t": "Capacitación",
+    "n": 59
+   },
+   {
+    "t": "Gestión de calidad",
+    "n": 56
+   },
+   {
+    "t": "Consultoría",
+    "n": 53
+   },
+   {
+    "t": "Auditoría",
+    "n": 39
+   },
+   {
+    "t": "NTCGP sector público",
+    "n": 34
+   },
+   {
+    "t": "Gestión ambiental",
+    "n": 25
+   },
+   {
+    "t": "Seguridad y salud en el trabajo",
+    "n": 24
+   },
+   {
+    "t": "Planeación estratégica",
+    "n": 22
+   },
+   {
+    "t": "MIPG",
+    "n": 21
+   }
+  ],
+  "nota": "[[PENDIENTE: conciliar la base consolidada (89 contratos, Dossier) con el maestro depurado (64 de B&A en el RUP); 62 de 89 sin soporte completo]]"
+ },
+ "metodo": {
+  "titulo": "Cómo trabajamos",
+  "items": [
+   {
+    "t": "Leemos la norma antes que al cliente",
+    "d": "Cada proyecto parte de la pirámide normativa que obliga a la entidad y de lo que mide FURAG o la Contraloría."
+   },
+   {
+    "t": "Diagnóstico con evidencia",
+    "d": "Pruebas de diseño y de efectividad, no percepciones. Cada hallazgo con requisito, evidencia y efecto."
+   },
+   {
+    "t": "Capacidad instalada",
+    "d": "El equipo de la entidad aprende a sostener el sistema; el entregable es un método, no solo un informe."
+   },
+   {
+    "t": "IA con trazabilidad",
+    "d": "Agentes que aceleran el análisis y la documentación; la decisión y la firma siguen siendo humanas."
+   }
+  ]
+ }
 }

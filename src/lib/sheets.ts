@@ -8,18 +8,19 @@ import { aSemaforo } from './semaforo';
  * Los encabezados reales de SEMÁFORO 2026-2 se mapean por alias: confirmar con JSGM y ajustar ALIAS si cambian.
  */
 export const ALIAS: Record<keyof Omit<FilaProceso, 'estado'> | 'estado', string[]> = {
-  codigo: ['proceso', 'codigo', 'codigo proceso', 'id proceso', 'referencia', 'numero de proceso', 'no. proceso'],
+  codigo: ['no. proceso', 'no proceso', 'proceso', 'codigo', 'codigo proceso', 'id proceso', 'referencia', 'numero de proceso', 'no. proceso'],
   entidad: ['entidad', 'entidad contratante', 'cliente'],
   objeto: ['objeto', 'objeto del proceso', 'descripcion', 'nombre del procedimiento'],
-  valor: ['valor', 'presupuesto', 'cuantia', 'precio base', 'valor estimado'],
-  cierre: ['cierre', 'fecha cierre', 'fecha de cierre', 'presentacion de ofertas', 'fecha limite'],
+  valor: ['cuantia / presupuesto', 'cuantia', 'valor', 'presupuesto', 'cuantia', 'precio base', 'valor estimado'],
+  cierre: ['fecha presentar propuesta', 'cierre', 'fecha cierre', 'fecha de cierre', 'presentacion de ofertas', 'fecha limite'],
   estado: ['semaforo', 'estado', 'decision', 'viabilidad'],
-  url: ['url', 'enlace', 'link', 'url secop'],
+  url: ['url', 'enlace', 'link', 'url secop', 'secop ii', '–'],
   modalidad: ['modalidad', 'modalidad de contratacion'],
   responsable: ['responsable', 'encargado'],
 };
 
-const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').trim().toLowerCase();
+/** Quita tildes, emoji y saltos: «🔔 Fecha Presentar Propuesta» → «fecha presentar propuesta». */
+const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\p{L}\p{N}\s./–-]/gu, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
 
 export function aNumero(v: unknown): number | null {
   if (typeof v === 'number') return v;
@@ -49,7 +50,8 @@ export function filasAProcesos(valores: unknown[][]): FilaProceso[] {
   enc.forEach((h, i) => {
     const n = norm(String(h ?? ''));
     for (const [campo, alias] of Object.entries(ALIAS)) {
-      if (indice[campo as keyof typeof ALIAS] === undefined && alias.includes(n)) indice[campo as keyof typeof ALIAS] = i;
+      // Coincidencia exacta, o prefijo para encabezados con leyenda («Semáforo ✅ | ‼️ | ❌»).
+      if (indice[campo as keyof typeof ALIAS] === undefined && (alias.includes(n) || alias.some((a) => a.length > 4 && n.startsWith(`${a} `)))) indice[campo as keyof typeof ALIAS] = i;
     }
   });
   const celda = (fila: unknown[], c: keyof typeof ALIAS) => (indice[c] === undefined ? undefined : fila[indice[c]!]);

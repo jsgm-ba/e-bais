@@ -42,6 +42,10 @@ describe('regla 3: términos prohibidos', () => {
     expect(reglas('catalogo.json', [{ regimen: 'REQUIERE_AVAL_FB', aval_fb_ref: null, fuentes: ['x'], d: frase }])).toContain('termino-prohibido');
     expect(reglas('catalogo.json', [{ regimen: 'FB', aval_fb_ref: 'Carta FB 2026-11', fuentes: ['x'], d: frase }])).toEqual([]);
   });
+  it('permite el nombre de un documento en una cita de fuente, pero no en el texto', () => {
+    expect(reglas('ba.json', { a: { t: 'Desde 1996', fuentes: ['Certificado RUP 2026'] } })).toEqual([]);
+    expect(reglas('ba.json', { a: { t: 'Entregamos un certificado', fuentes: ['x'] } })).toContain('termino-prohibido');
+  });
   it('detecta frases vacías', () => {
     expect(reglas('hub.json', { x: 'Soluciones integrales de alta calidad' })).toContain('termino-prohibido');
   });

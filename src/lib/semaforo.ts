@@ -4,7 +4,11 @@ export const ETIQUETA_SEMAFORO: Record<SemaforoEstado, string> = { viable: 'Viab
 
 /** Normaliza el texto del Sheets Maestro (VIABLE, Revisar, NO IR, verde...) al estado del sistema. */
 export function aSemaforo(v: unknown): SemaforoEstado | null {
-  const s = String(v ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').trim().toLowerCase();
+  const crudo = String(v ?? '');
+  if (crudo.includes('❌') || crudo.includes('😡')) return 'noir';
+  if (crudo.includes('✅')) return 'viable';
+  if (crudo.includes('‼') || crudo.includes('🔍')) return 'revisar';
+  const s = crudo.normalize('NFD').replace(/[̀-ͯ]/g, '').trim().toLowerCase();
   if (!s) return null;
   if (/^(viable|verde|go|si)\b/.test(s)) return 'viable';
   if (/^(revisar|amarillo|ambar|evaluar|pendiente)\b/.test(s)) return 'revisar';
