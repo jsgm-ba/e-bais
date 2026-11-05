@@ -1,0 +1,285 @@
+{
+ "_estado": {
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "HV y soportes académicos de JSGM (PDF, recibido el 05-nov-2026)",
+   "Plan Carrera JSGM v1.0 (ago-2026), solo el posicionamiento profesional",
+   "PROMPT 1B v2, contexto verificado (04-nov-2026)"
+  ]
+ },
+ "meta": {
+  "title": "Juan Sebastián González Muñoz · Inteligencia aumentada para el sector público y las ESAL",
+  "description": "Portafolio consultivo de JSGM: agentes de IA, segundo cerebro, memoria institucional, captura del know-how y formación en IA para entidades, empresas y fundaciones."
+ },
+ "hero": {
+  "antetitulo": "Perfil experto · e-B&Ais",
+  "nombre": "Juan Sebastián González Muñoz",
+  "rol": "Arquitecto de soluciones de IA y líder de producto de e-B&Ais, EVA y CKOP",
+  "titular": "La máquina calcula. La persona juzga. Diseño sistemas donde cada uno hace lo suyo.",
+  "bajada": "Administrador de empresas y antropólogo de la Universidad de los Andes. Construyo agentes, tableros y cursos de IA sobre el criterio de B&A en control público, para que el conocimiento experto se use más y se pierda menos.",
+  "nota_trayectoria": "[[PENDIENTE: la cifra de 30 años de B&A requiere el mismo soporte que en /ba/legado]]"
+ },
+ "tesis": {
+  "titulo": "Inteligencia aumentada, no reemplazada",
+  "parrafos": [
+   "La IA rinde en el cálculo: leer pliegos, cruzar requisitos, redactar borradores, verificar cifras. El juicio, que es decidir con contexto, ética y responsabilidad, sigue siendo humano.",
+   "Por eso cada sistema que diseño separa las dos cosas: el agente propone con su fuente y una persona con nombre y cargo aprueba. Así la IA gana adopción en organizaciones donde una firma tiene consecuencias legales."
+  ],
+  "fuentes": [
+   "Dede, Etemadi y Forshaw, Intelligence Augmentation, Harvard Next Level Lab (2021)",
+   "Jain, Padmanabhan, Pavlou y Raghu, Information Systems Research (2021)"
+  ]
+ },
+ "diferencial": {
+  "titulo": "Por qué un antropólogo diseñando IA",
+  "items": [
+   {
+    "t": "Primero entiendo cómo se trabaja de verdad",
+    "d": "Observo cómo circulan el conocimiento, la confianza y la autoridad antes de automatizar. Es lo que hace que la gente adopte la herramienta en lugar de rodearla."
+   },
+   {
+    "t": "Dominio del sector público desde adentro",
+    "d": "Trabajo dentro de B&A con el criterio de MMP en control fiscal, MIPG, ISO y contratación estatal."
+   },
+   {
+    "t": "Construyo, no solo recomiendo",
+    "d": "Agentes, tableros y automatizaciones en producción, con Copilot, Power BI, Access, Apps Script, n8n y modelos de lenguaje."
+   }
+  ]
+ },
+ "construido": {
+  "titulo": "Lo que ya está construido",
+  "fuentes": [
+   "HV y soportes académicos de JSGM (PDF, recibido el 05-nov-2026)"
+  ],
+  "items": [
+   {
+    "t": "CKOP",
+    "d": "Sistema propio de B&A de inteligencia de datos públicos y contratación estatal: búsqueda de oportunidades, análisis de viabilidad y apoyo a ofertas.",
+    "h": "/ckop"
+   },
+   {
+    "t": "Tres agentes de inteligencia comercial",
+    "d": "Monitoreo diario de SECOP II con puntaje de viabilidad en 5 dimensiones, sistematización semanal del conocimiento institucional en un grafo y recomendación de alianzas y uniones temporales."
+   },
+   {
+    "t": "EVA",
+    "d": "Diseño de la matriz de rutas formativas y del portafolio de la academia virtual de B&A.",
+    "h": "/eva"
+   },
+   {
+    "t": "Kit del servidor aumentado",
+    "d": "Biblioteca de prompts, plantilla, lista de uso responsable y bitácora de trazabilidad para servidores públicos.",
+    "h": "/eva"
+   }
+  ],
+  "nota_metricas": "[[PENDIENTE: soporte de la cifra «+40 % de eficiencia operativa» antes de publicarla]]"
+ },
+ "formacion": {
+  "titulo": "Formación y credenciales",
+  "fuentes": [
+   "HV y soportes académicos de JSGM (PDF, recibido el 05-nov-2026)"
+  ],
+  "academica": [
+   "Antropología, Universidad de los Andes (abril de 2025)",
+   "Administración de Empresas, Universidad de los Andes (octubre de 2025)"
+  ],
+  "credenciales": [
+   {
+    "t": "Inglés C2 Proficient, EF SET 74/100 (julio de 2025)",
+    "soporte": true
+   },
+   {
+    "t": "MS-4019: Transformación de los procesos empresariales cotidianos con agentes, 4 horas (septiembre de 2025)",
+    "soporte": true
+   },
+   {
+    "t": "Hemispheric University Consortium, Virtual Research Internship 2024",
+    "soporte": true
+   },
+   {
+    "t": "Reconocimiento por participación en la Primera Hackatón Desafío Inteligente, Ministerio de Minas y Energía y Universidad Tecnológica de Pereira",
+    "soporte": true
+   },
+   {
+    "t": "Anthropic Academy: AI Fluency, Claude 101, Claude Code 101 e Introduction to Claude Cowork (2026)",
+    "soporte": false
+   },
+   {
+    "t": "Microsoft Applied Skills en Copilot Studio y Microsoft 365 Copilot (2026)",
+    "soporte": false
+   },
+   {
+    "t": "Google AI Essentials y Google Prompting Essentials (2026)",
+    "soporte": false
+   }
+  ],
+  "nota": "[[PENDIENTE: adjuntar los soportes de Anthropic, Microsoft y Google; sin soporte no se publican]]",
+  "siguiente": "[[PENDIENTE: confirmar inscripción a la especialización de UNIR en inteligencia empresarial y transformación digital antes de mencionarla]]"
+ },
+ "formaciones_dictadas": {
+  "titulo": "Formación dictada",
+  "fuentes": [
+   "Informe de ejecución FNE-161-2026, asistencia (29-oct-2026)",
+   "HV de JSGM (PDF, recibido el 05-nov-2026)"
+  ],
+  "items": [
+   {
+    "t": "Copilot y Microsoft Access para servidores públicos",
+    "d": "Módulo del Plan Institucional de Capacitación de una entidad del orden nacional: 70 y 63 asistentes frente a 23 previstos.",
+    "nota": "[[PENDIENTE: el número de contrato difiere entre la HV (FNE-MC-007-2026) y el informe (FNE-161-2026); permiso para nombrar a la entidad]]"
+   },
+   {
+    "t": "Inteligencia artificial para el servidor público",
+    "d": "Sesión para un órgano profesional del sector contable (noviembre de 2025).",
+    "nota": "[[PENDIENTE: permiso para nombrar a la entidad y a la docente invitada]]"
+   }
+  ]
+ },
+ "servicios": {
+  "titulo": "Portafolio consultivo",
+  "bajada": "Cada servicio tiene un problema, un resultado verificable y un entregable. Se contratan por B&A, solos o con la red de aliados.",
+  "items": [
+   {
+    "slug": "diagnostico-adopcion-ia",
+    "t": "Diagnóstico de adopción de IA",
+    "problema": "La organización compró licencias de IA y casi nadie las usa, o las usa sin reglas.",
+    "resultado": "Mapa de tareas por cargo: qué automatizar, qué asistir y qué no tocar, con riesgos y prioridades.",
+    "entregable": "Informe de diagnóstico, política de uso responsable y plan de 90 días.",
+    "duracion": "2 a 4 semanas",
+    "para": [
+     "C2",
+     "C3",
+     "C4"
+    ]
+   },
+   {
+    "slug": "agentes-empleados",
+    "t": "Agentes que trabajan como empleados",
+    "problema": "Personas expertas pierden horas en tareas repetitivas con reglas claras.",
+    "resultado": "Un agente con rol, límites y bitácora que entrega borradores para aprobación.",
+    "entregable": "Ficha del agente, flujo probado y medición del tiempo ahorrado.",
+    "duracion": "4 a 6 semanas",
+    "para": [
+     "C1",
+     "C2",
+     "C3",
+     "C4"
+    ],
+    "h": "/soluciones/agentes-empleados"
+   },
+   {
+    "slug": "segundo-cerebro",
+    "t": "Segundo cerebro y memoria de la organización",
+    "problema": "Las decisiones dependen de lo que una persona recuerda.",
+    "resultado": "Un repositorio consultable que responde citando el documento de origen.",
+    "entregable": "Taxonomía, carga depurada y asistente con citas obligatorias.",
+    "duracion": "4 a 8 semanas",
+    "para": [
+     "C2",
+     "C3",
+     "C4"
+    ],
+    "h": "/soluciones/segundo-cerebro"
+   },
+   {
+    "slug": "captura-know-how",
+    "t": "Captura del know-how experto",
+    "problema": "Lo que sabe la persona fundadora o el experto senior no está escrito y no se puede enseñar.",
+    "resultado": "Manual vivo de prácticas, criterios y errores típicos, listo para cursos y agentes.",
+    "entregable": "Entrevistas a profundidad, manual de way-of-work y un curso interno en EVA.",
+    "duracion": "6 a 10 semanas",
+    "para": [
+     "C1",
+     "C2",
+     "C3"
+    ],
+    "h": "/soluciones/manual-know-how"
+   },
+   {
+    "slug": "formacion-ia-equipos",
+    "t": "Formación en IA para equipos",
+    "problema": "El equipo usa IA sin método o le tiene desconfianza.",
+    "resultado": "Cada persona sale con un producto reutilizable y reglas de trazabilidad.",
+    "entregable": "Kit de prompts, bitácora y lista de uso responsable por cargo.",
+    "duracion": "4 a 36 horas",
+    "para": [
+     "C3",
+     "C4",
+     "C6"
+    ],
+    "productos": [
+     "C6-01",
+     "C4-04",
+     "C3-02"
+    ]
+   },
+   {
+    "slug": "radar-cooperacion",
+    "t": "Radar de convocatorias y cooperación para ESAL",
+    "problema": "La fundación se entera tarde de las convocatorias o no sabe cuáles le encajan.",
+    "resultado": "Alertas de convocatorias con criterios de encaje y calendario de postulación.",
+    "entregable": "Tablero de convocatorias y fichas de encaje por proyecto.",
+    "duracion": "En diseño",
+    "para": [
+     "C3"
+    ],
+    "estado": "en_diseno"
+   }
+  ]
+ },
+ "aliados": {
+  "titulo": "Para la red de aliados y las fundaciones",
+  "bajada": "Las ESAL comparten tres problemas: demostrar resultados al cooperante, sostener el conocimiento cuando rota el equipo y encontrar financiación a tiempo. Esta es la oferta que proponemos co-diseñar con cada una.",
+  "fundaciones": [
+   {
+    "id": "juntos-de-la-mano",
+    "nombre": "Fundación Juntos de la Mano por una Colombia Mejor",
+    "url": "https://fundacionjuntosdelamano.org/",
+    "permiso_ref": null,
+    "propuesta": [
+     "Radar de convocatorias y cooperación como piloto",
+     "Fundación lista para el cooperante: calidad y control interno para ESAL",
+     "Informes a donantes en horas, no en semanas, con IA"
+    ],
+    "productos": [
+     "C3-01",
+     "C3-02"
+    ],
+    "nota": "[[PENDIENTE: validar con la fundación su misión, población y prioridades (el sitio no fue accesible desde la sesión) y obtener permiso para nombrarla]]"
+   },
+   {
+    "id": "derecho-y-formacion",
+    "nombre": "Fundación Derecho y Formación",
+    "url": "https://fundacionderechoyformacion.org/",
+    "permiso_ref": null,
+    "propuesta": [
+     "Co-creación de cursos en EVA con su equipo docente y un tutor IA",
+     "Captura del know-how de sus expertos en un manual vivo",
+     "Memoria institucional con citas para su trabajo jurídico y formativo"
+    ],
+    "productos": [
+     "C3-01",
+     "C4-08"
+    ],
+    "nota": "[[PENDIENTE: validar con la fundación sus programas y prioridades (el sitio no fue accesible desde la sesión) y obtener permiso para nombrarla]]"
+   }
+  ],
+  "modelo": "Modelo de aliados con comisión sobre ventas referidas. [[PENDIENTE: el porcentaje se está formalizando; no publicar hasta firmar]]"
+ },
+ "lineas_contenido": {
+  "titulo": "De qué escribo y hablo",
+  "items": [
+   "IA aplicada al servidor público, con trazabilidad",
+   "Contratación estatal inteligente y GovCon",
+   "Antropología de la adopción de tecnología en organizaciones",
+   "Construir en público: CKOP y EVA por dentro"
+  ]
+ },
+ "cta": {
+  "t": "Agenda una conversación",
+  "h": "/ba/contacto?motivo=soluciones"
+ },
+ "aviso": "Los agentes proponen y la persona aprueba. Ningún sistema decide ni firma por ti."
+}

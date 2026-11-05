@@ -1,0 +1,139 @@
+[
+ {
+  "id": "PQ-01",
+  "slug": "pic-esencial",
+  "nombre": "PIC Esencial",
+  "cliente": "C4",
+  "componentes": [
+   "C4-03"
+  ],
+  "resuelve": "Ejecución del PIC con informe de impacto",
+  "precio": {
+   "desde_cop": null,
+   "institucional_alto_cop": 7000000,
+   "supuesto": true,
+   "aprobado_mmp": false
+  },
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Catálogo Maestro 1B, versión 05-nov-2026"
+  ]
+ },
+ {
+  "id": "PQ-02",
+  "slug": "pic-ia",
+  "nombre": "PIC + IA",
+  "cliente": "C4",
+  "componentes": [
+   "C4-03",
+   "C4-04"
+  ],
+  "resuelve": "PIC con los 9 módulos del servidor aumentado",
+  "precio": {
+   "desde_cop": null,
+   "institucional_alto_cop": 16000000,
+   "supuesto": true,
+   "aprobado_mmp": false
+  },
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Catálogo Maestro 1B, versión 05-nov-2026"
+  ]
+ },
+ {
+  "id": "PQ-03",
+  "slug": "fortalecimiento-mipg",
+  "nombre": "Fortalecimiento MIPG",
+  "cliente": "C4",
+  "componentes": [
+   "C4-01",
+   "C4-02",
+   "C5-03"
+  ],
+  "resuelve": "Curso, taller aplicado e informe de brechas",
+  "precio": {
+   "desde_cop": null,
+   "institucional_alto_cop": 13000000,
+   "supuesto": true,
+   "aprobado_mmp": false
+  },
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Catálogo Maestro 1B, versión 05-nov-2026"
+  ]
+ },
+ {
+  "id": "PQ-04",
+  "slug": "ruta-auditor",
+  "nombre": "Ruta Auditor",
+  "cliente": "C1",
+  "componentes": [
+   "C1-01",
+   "C1-05",
+   "C1-02",
+   "C1-03"
+  ],
+  "resuelve": "De cero a auditor de sistemas integrados (FB solo con aval)",
+  "precio": {
+   "desde_cop": 1500000,
+   "institucional_alto_cop": 18000000,
+   "supuesto": true,
+   "aprobado_mmp": false
+  },
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Catálogo Maestro 1B, versión 05-nov-2026"
+  ]
+ },
+ {
+  "id": "PQ-05",
+  "slug": "blindaje-legal-empresa-colombia",
+  "nombre": "Blindaje Legal Empresa Colombia",
+  "cliente": "C2",
+  "componentes": [
+   "C2-02",
+   "C2-03",
+   "C2-04",
+   "C2-05"
+  ],
+  "resuelve": "Seis obligaciones legales en una matriz",
+  "precio": {
+   "desde_cop": 1337000,
+   "institucional_alto_cop": 17000000,
+   "supuesto": true,
+   "aprobado_mmp": false
+  },
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Catálogo Maestro 1B, versión 05-nov-2026"
+  ]
+ },
+ {
+  "id": "PQ-06",
+  "slug": "fenece-tu-cuenta",
+  "nombre": "Fenece tu cuenta",
+  "cliente": "C5",
+  "componentes": [
+   "C5-01",
+   "C5-02",
+   "C5-04"
+  ],
+  "resuelve": "Ruta de 90 días con validador de cifras",
+  "precio": {
+   "desde_cop": null,
+   "institucional_alto_cop": 28000000,
+   "supuesto": true,
+   "aprobado_mmp": false
+  },
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Catálogo Maestro 1B, versión 05-nov-2026"
+  ]
+ }
+]

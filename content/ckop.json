@@ -1,0 +1,25 @@
+{
+ "_estado": {"publicacion": "borrador", "aprobado_por": null, "fuentes": ["PROMPT maestro e-B&Ais v2 (05-nov-2026)", "Tablero PRIORIZACIÓN JSGM (05-nov-2026)"]},
+ "meta": {"title": "CKOP · Torre de control de licitaciones", "description": "Decide qué proceso de SECOP II mirar, quién se presenta y a qué precio, con datos con fuente y citas del pliego."},
+ "hero": {"antetitulo": "CKOP", "titular": "Tres decisiones por proceso. Cada una con su fuente.", "bajada": "Radar de SECOP II, semáforo de viabilidad y bitácora de decisiones para el equipo de licitaciones."},
+ "decisiones": [
+  {"t": "¿Miro o descarto?", "d": "Semáforo Viable, Revisar o No ir según objeto, experiencia acreditada y requisitos habilitantes."},
+  {"t": "¿Quién se presenta?", "d": "B&A sola, en unión temporal o con un aliado, según la experiencia que exige el pliego."},
+  {"t": "¿A qué precio?", "d": "Rango con medianas de contratos similares en SECOP II y el costo del equipo."}
+ ],
+ "como": {"titulo": "Cómo funciona", "pasos": ["Lee los procesos abiertos de SECOP II desde datos abiertos", "Cruza objeto y requisitos con la experiencia y el Maestro de licitaciones", "Propone un semáforo con citas del pliego", "La persona decide y queda en la bitácora"]},
+ "principios": {"titulo": "Principios", "items": ["Todo dato con su fuente", "Citas literales del pliego", "Los agentes proponen y la persona aprueba", "Nada se envía a SECOP II desde el sistema"]},
+ "modulos_titulo": "Estado de los módulos",
+ "demo": {"titulo": "Así se ve el radar", "aviso": "Dato de ejemplo", "columnas": {"codigo": "Proceso", "entidad": "Entidad", "objeto": "Objeto", "valor": "Valor", "cierre": "Cierre", "estado": "Semáforo"}},
+ "ingresar": {"t": "Ingresar al panel", "deshabilitado": "Acceso privado para el equipo de B&A"},
+ "panel": {
+  "titulo": "Panel CKOP",
+  "sin_permiso": "Este panel es para el equipo de B&A. Si debería tener acceso, pídelo al administrador.",
+  "sin_datos": "Sin datos: falta configurar la cuenta de servicio del Sheets Maestro (GOOGLE_SERVICE_ACCOUNT_JSON y SHEETS_MAESTRO_ID).",
+  "kpi": {"procesos": "Procesos", "viable": "Viables", "revisar": "Por revisar", "noir": "No ir", "valor": "Valor en juego", "cierran": "Cierran en 7 días"},
+  "filtros": {"buscar": "Buscar objeto, entidad o código", "estado": "Semáforo", "todos": "Todos"},
+  "radar": {"titulo": "Radar SECOP II", "bajada": "Procesos abiertos de consultoría, auditoría y capacitación en datos abiertos.", "sin_red": "Sin conexión con datos.gov.co desde este entorno."},
+  "decision": {"titulo": "Decisión", "guardar": "Registrar decisión", "responsable": "Responsable", "precio": "Precio propuesto (COP)", "nota": "Justificación con cita del pliego", "borrador": "Borrador · requiere aprobación"},
+  "fuente": "Fuente: Sheets Maestro de licitaciones, pestañas SEMÁFORO 2026-2 e HISTÓRICO"
+ }
+}

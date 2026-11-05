@@ -1,0 +1,89 @@
+{
+ "_estado": {
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "PROMPT 1B v2, ADN de EVA (04-nov-2026)",
+   "Catálogo Maestro 1B, versión 05-nov-2026"
+  ]
+ },
+ "meta": {
+  "title": "EVA · Cursos que resuelven un problema de tu puesto",
+  "description": "Academia virtual de e-B&Ais: auditoría, control interno, MIPG, ISO e IA aplicada, con un entregable en cada curso."
+ },
+ "hero": {
+  "titular": "Aprende resolviendo el problema que tienes hoy en tu puesto.",
+  "bajada": "Cada curso de EVA parte de un problema real y te deja un entregable: una matriz, una plantilla o un agente que usas desde el día siguiente."
+ },
+ "componentes": {
+  "titulo": "Así está hecho cada curso",
+  "items": [
+   {
+    "n": "1",
+    "t": "Marco conceptual",
+    "d": "Los conceptos con casos, personajes y un mapa que conecta las ideas."
+   },
+   {
+    "n": "2",
+    "t": "Marco normativo en pirámide",
+    "d": "De la Constitución a la resolución y al sistema ISO, en el orden en que obligan."
+   },
+   {
+    "n": "3",
+    "t": "El cómo",
+    "d": "La implementación que la norma no dice, contada por quien la ha hecho."
+   },
+   {
+    "n": "IA",
+    "t": "Tutor IA",
+    "d": "Un agente que te acompaña con preguntas y ejemplos. Propone; tú decides."
+   }
+  ]
+ },
+ "filtros": {
+  "titulo": "Catálogo",
+  "cliente": "Para quién",
+  "formato": "Formato",
+  "intensidad": "Intensidad",
+  "problema": "Buscar por problema",
+  "todos": "Todos",
+  "limpiar": "Limpiar filtros",
+  "resultados": "productos"
+ },
+ "ficha": {
+  "problema": "El problema",
+  "resultado": "Lo que lograrás",
+  "entregable": "Lo que te llevas",
+  "capa_ia": "Capa IA",
+  "norma": "Norma o política",
+  "intensidad": "Intensidad",
+  "formato": "Formato",
+  "regimen": "Constancia",
+  "siguiente": "Siguiente escalón",
+  "fuentes": "Fuentes",
+  "componentes": "Los 3 componentes EVA",
+  "comenzar": "Comenzar el curso",
+  "precio_institucional": "Cotiza tu PIC o tu plan"
+ },
+ "paquetes": {
+  "titulo": "Paquetes",
+  "bajada": "Rutas armadas con varios productos del catálogo."
+ },
+ "lista_espera": {
+  "titulo": "Lista de espera de EVA",
+  "bajada": "Te avisamos cuando abra el curso que te interesa. Solo usamos tu correo para eso.",
+  "enviar": "Unirme a la lista"
+ },
+ "aprender": {
+  "titulo": "Aprender",
+  "bajada": "Tus cursos y tu avance.",
+  "sin_sesion": "Ingresa con tu correo para ver tus cursos.",
+  "sin_cursos": "Todavía no tienes cursos. El curso piloto está abierto en vista previa."
+ },
+ "tutor": {
+  "titulo": "Tutor IA",
+  "aviso": "Borrador · requiere aprobación. El tutor propone; tú validas y decides.",
+  "apagado": "El tutor se activa cuando se configure el modelo de IA del entorno.",
+  "placeholder": "Escribe tu pregunta sobre esta lección"
+ }
+}

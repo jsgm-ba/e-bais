@@ -1,0 +1,123 @@
+{
+ "_estado": {
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "PROMPT 1B v2 (04-nov-2026)",
+   "CLAUDE.md §1 y §3"
+  ]
+ },
+ "meta": {
+  "title": "e-B&Ais · Criterio de control público, ahora con IA",
+  "description": "Consultoría y auditoría de B&A, cursos de EVA, la torre de control de licitaciones CKOP y soluciones de IA a la medida."
+ },
+ "hero": {
+  "antetitulo": "e-B&Ais",
+  "titular": "Resuelve el problema que te trajo: cuenta que no fenece, auditoría que se cae, licitación que se escapa.",
+  "bajada": "El criterio técnico de B&A en control público, auditoría e ISO, llevado a cursos, tableros y agentes de IA que trabajan con tus datos.",
+  "nota_trayectoria": "[[PENDIENTE: confirmar trayectoria (25+ o 30 años) con soporte antes de publicar cifras]]"
+ },
+ "quien": {
+  "pregunta": "¿Quién eres?",
+  "perfiles": [
+   {
+    "id": "consultor",
+    "etiqueta": "Consultor o auditor",
+    "clientes": [
+     "C1"
+    ],
+    "cta": "individual"
+   },
+   {
+    "id": "empresa",
+    "etiqueta": "Empresa privada o contratista",
+    "clientes": [
+     "C2"
+    ],
+    "cta": "individual"
+   },
+   {
+    "id": "fundacion",
+    "etiqueta": "Fundación o ESAL",
+    "clientes": [
+     "C3"
+    ],
+    "cta": "individual"
+   },
+   {
+    "id": "entidad",
+    "etiqueta": "Entidad pública",
+    "clientes": [
+     "C4",
+     "C5"
+    ],
+    "cta": "institucional"
+   },
+   {
+    "id": "servidor",
+    "etiqueta": "Servidor público",
+    "clientes": [
+     "C6"
+    ],
+    "cta": "individual"
+   }
+  ]
+ },
+ "que": {
+  "pregunta": "¿Qué necesitas resolver?",
+  "todos": "Ver todos los problemas",
+  "vacio": "No hay productos para esa combinación. Escríbenos y lo revisamos."
+ },
+ "cta": {
+  "individual": {
+   "texto": "Únete a la lista de espera",
+   "href": "/eva/lista-de-espera"
+  },
+  "institucional": {
+   "texto": "Cotiza tu PIC o tu plan",
+   "href": "/ba/contacto?motivo=cotizacion"
+  }
+ },
+ "puertas": {
+  "titulo": "Cuatro puertas, un mismo criterio",
+  "items": [
+   {
+    "producto": "ba",
+    "titulo": "B&A · Consultoría y auditoría",
+    "texto": "Control interno, MIPG, fenecimiento de la cuenta y sistemas ISO para entidades públicas.",
+    "href": "/ba",
+    "accion": "Ver servicios"
+   },
+   {
+    "producto": "eva",
+    "titulo": "EVA · Aprender",
+    "texto": "Cursos por problema, con un entregable que usas el lunes en tu puesto.",
+    "href": "/eva",
+    "accion": "Ver catálogo"
+   },
+   {
+    "producto": "ckop",
+    "titulo": "CKOP · Licitaciones",
+    "texto": "Torre de control para decidir qué proceso de SECOP II mirar, quién se presenta y a qué precio.",
+    "href": "/ckop",
+    "accion": "Conocer CKOP"
+   },
+   {
+    "producto": "ba",
+    "titulo": "Soluciones a la medida",
+    "texto": "Agentes que trabajan como empleados, segundo cerebro y memoria de tu organización.",
+    "href": "/soluciones",
+    "accion": "Ver soluciones"
+   }
+  ]
+ },
+ "senal": {
+  "titulo": "Lo que pidieron los servidores",
+  "texto": "En el PIC del Fondo Nacional de Estupefacientes, el módulo de Copilot y Access reunió 70 y 63 asistentes frente a 23 previstos.",
+  "fuente": "Informe de ejecución FNE-161-2026, asistencia (29-oct-2026)",
+  "fuentes": [
+   "Informe de ejecución FNE-161-2026, asistencia (29-oct-2026)"
+  ],
+  "nota": "[[PENDIENTE: permiso del FNE para nombrarlo como cliente]]"
+ }
+}
