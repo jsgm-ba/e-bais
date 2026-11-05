@@ -14,13 +14,17 @@ ${vars(tokens.color.dark)}
     color-scheme: dark;
   }
 }
-:root[data-theme="dark"] {
+:root[data-theme="dark"], [data-theme="dark"] {
 ${vars(tokens.color.dark)}
   color-scheme: dark;
 }
-:root, [data-product="ba"] { --accent: var(--ba); --accent-soft: var(--ba-soft); --on-accent: var(--on-ba); }
-[data-product="ckop"] { --accent: var(--ckop); --accent-soft: var(--ckop-soft); --on-accent: var(--on-ckop); }
-[data-product="eva"] { --accent: var(--eva); --accent-soft: var(--eva-soft); --on-accent: var(--on-eva); }
+[data-theme="light"] {
+${vars(tokens.color.light)}
+  color-scheme: light;
+}
+:root, [data-product="ba"] { --accent: var(--ba); --accent-soft: var(--ba-soft); --on-accent: var(--on-ba); --radio: ${tokens.radius.md}; }
+[data-product="ckop"] { --accent: var(--ckop); --accent-soft: var(--ckop-soft); --on-accent: var(--on-ckop); --radio: ${tokens.radius.sm}; }
+[data-product="eva"] { --accent: var(--eva); --accent-soft: var(--eva-soft); --on-accent: var(--on-eva); --radio: ${tokens.radius.lg}; }
 `;
 writeFileSync(new URL('../src/app/tokens.css', import.meta.url), css);
 console.log('tokens.css generado');

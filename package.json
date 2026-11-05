@@ -7,7 +7,7 @@
     "prebuild": "tsx scripts/verificar-contenido.ts",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "verificar": "tsx scripts/verificar-contenido.ts",
@@ -15,6 +15,7 @@
     "e2e": "node tests/e2e/humo.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.5.0",
     "@fontsource/ibm-plex-mono": "^5.3.0",
     "@fontsource/lexend": "^5.3.0",
     "@fontsource/public-sans": "^5.3.0",
