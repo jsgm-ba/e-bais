@@ -5,7 +5,7 @@ import { contenido } from '@/lib/content';
 import type { FilaProceso } from '@/lib/content/schemas';
 import { esPreview } from '@/lib/preview';
 import { radarSecop } from '@/lib/secop';
-import { leerSemaforo, sheetsConfigurado } from '@/lib/sheets';
+import { leerMaestro, sheetsConfigurado } from '@/lib/sheets';
 import { clienteServidor, esEquipo, sesionActual } from '@/lib/supabase/server';
 
 export const metadata: Metadata = { title: 'Panel · CKOP', robots: { index: false } };
@@ -17,10 +17,10 @@ export const dynamic = 'force-dynamic';
 async function cargarProcesos(equipo: boolean): Promise<{ filas: FilaProceso[]; ejemplo: boolean }> {
   if (equipo) {
     const sb = await clienteServidor();
-    const { data } = (await sb?.from('ckop_proceso').select('codigo,entidad,objeto,valor,cierre,estado,url,modalidad,responsable').order('cierre')) ?? { data: null };
-    if (data?.length) return { filas: data.map((d) => ({ ...d, url: d.url ?? undefined, modalidad: d.modalidad ?? undefined, responsable: d.responsable ?? undefined })) as FilaProceso[], ejemplo: false };
+    const { data } = (await sb?.from('ckop_proceso').select('codigo,entidad,objeto,valor,cierre,estado,url,modalidad,responsable,estado_secop,hojas,hitos').order('cierre')) ?? { data: null };
+    if (data?.length) return { filas: data.map((d) => ({ ...d, url: d.url ?? undefined, modalidad: d.modalidad ?? undefined, responsable: d.responsable ?? undefined, estado_secop: d.estado_secop ?? undefined, hojas: d.hojas ?? undefined, hitos: d.hitos ?? [] })) as FilaProceso[], ejemplo: false };
     if (sheetsConfigurado()) {
-      try { return { filas: await leerSemaforo(), ejemplo: false }; } catch { /* cae a ejemplo */ }
+      try { return { filas: await leerMaestro(), ejemplo: false }; } catch { /* cae a ejemplo */ }
     }
   }
   return { filas: esPreview() ? contenido.ckopDemo.filas : [], ejemplo: true };

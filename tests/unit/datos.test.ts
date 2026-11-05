@@ -44,3 +44,28 @@ describe('formato es-CO', () => {
     expect(plazo('2026-11-08T14:00:00-05:00', new Date('2026-11-05T09:00:00-05:00'))).toBe('D-3 · 14:00');
   });
 });
+
+import { proximoHito } from '@/lib/etapas';
+import { unirHojas } from '@/lib/sheets';
+
+describe('Maestro Licitaciones (05-nov-2026) → hitos', () => {
+  const enc = ['Enlace directo al pliego electrónico', 'TEMPORIZADOR', 'Semáforo ✅ | ‼️ | ❌', 'Entidad', 'CHECK MMP', 'Clasificación', 'Proponente', 'TO DO xAI w/ JSGM', 'Estado SECOP', 'No. Proceso', 'Objeto', 'Modalidad', 'Cuantía / Presupuesto', 'Valor ofertado', 'TD en %', 'Fecha Observaciones Proyecto Pliego', '🚨 Fecha Manifestar Interés', '🚨 Días para Manifestar Interés', '🔔 Días para Presentar Propuesta', '🔔 Fecha Presentar Propuesta', 'Fecha Informe Evaluación', 'Fecha Subsanación'];
+  const fila = ['https://x', 'Vencido', ' ✅', 'ENTIDAD', '', 'MIPG', 'B&A', '', 'Presentación propuesta', 'SDH-CMA-0002-2026', 'Consultoría', 'Concurso de méritos abierto', 224946611, 224946611, 1, '', '', '', '', '2026-10-16 09:00:00', '2026-10-20 23:59:00', '23/10/2026 11:59:00 PM'];
+  it('lee los hitos de las columnas de fechas y el estado SECOP', () => {
+    const [p] = filasAProcesos([enc, fila]);
+    expect(p!.estado_secop).toBe('Presentación propuesta');
+    expect(p!.hitos).toEqual([
+      { t: 'Presentar oferta', fecha: '2026-10-16T09:00:00-05:00' },
+      { t: 'Informe de evaluación', fecha: '2026-10-20T23:59:00-05:00' },
+      { t: 'Subsanación', fecha: '2026-10-23T23:59:00-05:00' },
+    ]);
+    expect(proximoHito(p!, new Date('2026-10-18T12:00:00-05:00'))).toEqual({ t: 'Informe de evaluación', fecha: '2026-10-20T23:59:00-05:00' });
+    expect(proximoHito(p!, new Date('2026-11-05T12:00:00-05:00'))).toBeNull();
+  });
+  it('une hojas sin duplicar procesos', () => {
+    const [p] = filasAProcesos([enc, fila]);
+    const u = unirHojas([{ hoja: 'SEMÁFORO 2026-2', filas: [p!] }, { hoja: 'OPORTUNIDADES', filas: [p!] }]);
+    expect(u).toHaveLength(1);
+    expect(u[0]!.hojas).toEqual(['SEMÁFORO 2026-2', 'OPORTUNIDADES']);
+  });
+});

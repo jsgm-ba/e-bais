@@ -158,7 +158,9 @@ export const CKOP = z.object({
 export const SemaforoEstado = z.enum(['viable', 'revisar', 'noir']);
 export type SemaforoEstado = z.infer<typeof SemaforoEstado>;
 export const CkopModulos = z.object({ ...Pagina, modulos: z.array(z.object({ id: z.string(), nombre: z.string(), estado: z.enum(['en_construccion', 'planeado', 'disponible']) })), etiquetas: z.record(z.string()) });
-export const FilaProceso = z.object({ codigo: z.string(), entidad: z.string(), objeto: z.string(), valor: z.number().nullable(), cierre: z.string().nullable(), estado: SemaforoEstado.nullable(), url: z.string().optional(), modalidad: z.string().optional(), responsable: z.string().optional() });
+export const Hito = z.object({ t: z.string(), fecha: z.string() });
+export type Hito = z.infer<typeof Hito>;
+export const FilaProceso = z.object({ codigo: z.string(), entidad: z.string(), objeto: z.string(), valor: z.number().nullable(), cierre: z.string().nullable(), estado: SemaforoEstado.nullable(), url: z.string().optional(), modalidad: z.string().optional(), responsable: z.string().optional(), estado_secop: z.string().optional(), hojas: z.array(z.string()).optional(), hitos: z.array(Hito).optional() });
 export type FilaProceso = z.infer<typeof FilaProceso>;
 export const CkopDemo = z.object({ ...Pagina, dato_ejemplo: z.literal(true), filas: z.array(FilaProceso) });
 

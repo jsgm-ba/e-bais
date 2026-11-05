@@ -23,6 +23,12 @@ El indicador de uso de la sesión no se actualizó durante el turno de trabajo (
 - Contradicción visible: 64 contratos (maestro depurado, RUP) frente a 89 (Dossier, B&A + MMP persona natural). Se muestran ambas cifras con su fuente; falta conciliarlas.
 - **Logo**: llegó como imagen en el chat, no como archivo. Hay que subirlo (SVG o PNG) para reemplazar el marcador `eb-logo-slot`.
 
+## 3c. Ronda 3 (05-nov-2026): Maestro Licitaciones y flujo SECOP II
+- **`docs/FLUJO_SECOP_II.md`**: el activo consolidado. Incluye el mapa de las 3 etapas, el árbol de decisión de modalidad, la tabla de menor y mínima cuantía, la comparación de 7 modalidades, los hitos con plazos y normas por modalidad (carriles entidad y B&A), la etapa contractual, la poscontractual (liquidación, cierre, certificación y RUP), el mapeo a las columnas del Maestro y la hoja EJECUCIÓN propuesta. Los puntos sin confirmar llevan [VERIFICAR].
+- **CKOP conectado al Maestro Licitaciones** por cuenta de servicio (decisión de JSGM): lee `SEMÁFORO 2026-2` y `OPORTUNIDADES` (configurable), une sin duplicar, calcula los hitos desde las columnas de fechas y muestra el **próximo hito** en el panel. Probado contra el Excel del 05-nov-2026 (no subido): 53 procesos, 52 con hitos.
+- Migración `20261105010000_ckop_hitos.sql` (estado SECOP, hojas e hitos).
+- Hallazgo: el Maestro cubre bien lo precontractual y **nada después de la adjudicación**. La hoja EJECUCIÓN cerraría la fuga de soportes que explica que solo 9 de 64 contratos estén verificados.
+
 ## 4. Criterios de aceptación y evidencia
 | Criterio | Estado | Evidencia |
 |---|---|---|
@@ -36,7 +42,7 @@ El indicador de uso de la sesión no se actualizó durante el turno de trabajo (
 | Producción no publica borradores | Cumple | Build con `VERCEL_ENV=production`: páginas en «Contenido en preparación», fichas en 404 y `/sistema` en 404 |
 | Rama empujada, PR abierto, vista previa de Vercel | Parcial | Rama y PR #1 sí; vista previa pendiente de importar el repo en Vercel |
 
-Comandos verificados en el contenedor: `pnpm typecheck` · `pnpm lint` · `pnpm test` (28 pruebas) · `pnpm build` · `pnpm e2e`.
+Comandos verificados en el contenedor: `pnpm typecheck` · `pnpm lint` · `pnpm test` (30 pruebas) · `pnpm build` · `pnpm e2e`.
 
 ## 5. Lo que no se pudo probar en este contenedor
 `pnpm conexiones` prueba cada servicio y dice qué falta; la guía paso a paso está en `docs/CONECTAR_DATOS.md`.

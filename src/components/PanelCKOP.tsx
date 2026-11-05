@@ -3,6 +3,7 @@ import { useMemo, useState, type FormEvent } from 'react';
 import type { FilaProceso, SemaforoEstado } from '@/lib/content/schemas';
 import { cop, diasHasta, plazo } from '@/lib/formato';
 import { ETIQUETA_SEMAFORO } from '@/lib/semaforo';
+import { proximoHito } from '@/lib/etapas';
 import { EstadoSemaforo } from './EstadoSemaforo';
 import { TablaDensa, type Columna } from './TablaDensa';
 import { Button, Chip, cx } from './ui';
@@ -46,6 +47,7 @@ export function PanelCKOP({ filas, radar, t, puedeDecidir, ejemplo }: {
     { clave: 'entidad', titulo: tx(t, 'columnas', 'entidad'), celda: (f) => <span className="block max-w-[220px] truncate" title={f.entidad}>{f.entidad}</span> },
     { clave: 'objeto', titulo: tx(t, 'columnas', 'objeto'), celda: (f) => <span className="block max-w-[360px] truncate" title={f.objeto}>{f.objeto}</span> },
     { clave: 'valor', titulo: tx(t, 'columnas', 'valor'), numerica: true, celda: (f) => cop(f.valor) },
+    { clave: 'hito', titulo: 'Próximo hito', celda: (f) => { const h = proximoHito(f); return h ? <span className="whitespace-nowrap"><span className="text-ink-muted">{h.t}</span> <span className="font-mono text-data tabular">{plazo(h.fecha)}</span></span> : <span className="text-ink-muted">{f.estado_secop ?? 'Sin hitos pendientes'}</span>; } },
     { clave: 'cierre', titulo: tx(t, 'columnas', 'cierre'), numerica: true, celda: (f) => (f.cierre ? plazo(f.cierre) : 'SIN DATO') },
     { clave: 'estado', titulo: tx(t, 'columnas', 'estado'), celda: (f) => <EstadoSemaforo estado={f.estado} /> },
   ];
@@ -120,7 +122,15 @@ function Detalle({ p, t, puedeDecidir, onCerrar }: { p: FilaProceso; t: T; puede
         <dt className="text-ink-muted">Valor</dt><dd className="text-right font-mono tabular">{cop(p.valor)}</dd>
         <dt className="text-ink-muted">Cierre</dt><dd className="text-right font-mono tabular">{p.cierre ? plazo(p.cierre) : 'SIN DATO'}</dd>
         {p.modalidad && (<><dt className="text-ink-muted">Modalidad</dt><dd className="text-right">{p.modalidad}</dd></>)}
+        {p.estado_secop && (<><dt className="text-ink-muted">Estado SECOP</dt><dd className="text-right">{p.estado_secop}</dd></>)}
       </dl>
+      {(p.hitos?.length ?? 0) > 0 && (
+        <ol className="mt-3 grid gap-1 border-t border-line pt-3 text-body-sm" aria-label="Hitos del proceso">
+          {p.hitos!.map((h) => (
+            <li key={h.t} className="flex justify-between gap-2"><span>{h.t}</span><span className="font-mono text-data tabular">{plazo(h.fecha)}</span></li>
+          ))}
+        </ol>
+      )}
       {p.url && <a href={p.url} target="_blank" rel="noopener noreferrer" className="enlace mt-2 inline-block text-body-sm">Ver en SECOP II</a>}
       <form onSubmit={guardar} className="mt-4 grid gap-3 border-t border-line pt-4">
         <p className="text-label font-semibold">{tx(t, 'decision', 'titulo')}</p>

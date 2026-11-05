@@ -16,7 +16,8 @@ claude.ai/code → menú del entorno en la barra de título → Edit → Network
 1. console.cloud.google.com → proyecto nuevo → APIs → habilita **Google Sheets API**.
 2. IAM → Service accounts → Create → sin roles → Keys → Add key → JSON. Descárgala.
 3. En el Sheets Maestro → Compartir → pega el correo de la cuenta de servicio (`...@...iam.gserviceaccount.com`) como **Lector**.
-4. El ID del Maestro está en su URL: `docs.google.com/spreadsheets/d/<ID>/edit`.
+4. El ID del **Maestro Licitaciones** está en su URL: `docs.google.com/spreadsheets/d/<ID>/edit`. Cárgalo en `SHEETS_MAESTRO_ID` (en Vercel, no en el repo). CKOP lee las hojas de `SHEETS_PESTANAS` (por defecto `SEMÁFORO 2026-2,OPORTUNIDADES`) y calcula los hitos desde las columnas de fechas (ver `docs/FLUJO_SECOP_II.md` §7).
+   Cuando la cuenta de servicio funcione, **quita el acceso «cualquiera con el enlace»** de la hoja: tiene valores ofertados, competidores y estrategia.
 5. Corre `pnpm conexiones`: muestra los encabezados reales de SEMÁFORO 2026-2. Si alguno no se reconoce, agrégalo a `ALIAS` en `src/lib/sheets.ts`.
 
 ## 3. Variables en Vercel (Project → Settings → Environment Variables)
@@ -27,6 +28,9 @@ claude.ai/code → menú del entorno en la barra de título → Edit → Network
 | `SUPABASE_SERVICE_ROLE_KEY` | Paso 1.4 (secreta) | Todos |
 | `GOOGLE_SERVICE_ACCOUNT_JSON` | El JSON completo en una línea (secreto) | Todos |
 | `SHEETS_MAESTRO_ID` | Paso 2.4 | Todos |
+| `SHEETS_PESTANAS` | Opcional. Por defecto `SEMÁFORO 2026-2,OPORTUNIDADES` | Todos |
+
+Si ya existía la base, aplica también `supabase/migrations/20261105010000_ckop_hitos.sql`.
 | `CRON_SECRET` | Una cadena aleatoria larga | Todos |
 | `ANTHROPIC_API_KEY` | Opcional: enciende el tutor de EVA | Todos |
 
