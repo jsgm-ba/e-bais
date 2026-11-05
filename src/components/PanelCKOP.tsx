@@ -10,11 +10,11 @@ import { Button, Chip, cx } from './ui';
 type T = Record<string, Record<string, string> | string>;
 const tx = (t: T, g: string, k: string) => ((t[g] as Record<string, string>)?.[k] ?? k);
 
-function Kpi({ etiqueta, valor, tono }: { etiqueta: string; valor: string; tono?: SemaforoEstado }) {
+function Kpi({ etiqueta, valor, tono, largo }: { etiqueta: string; valor: string; tono?: SemaforoEstado; largo?: boolean }) {
   return (
     <div className="rounded-sm border border-line bg-surface-raised p-3">
       <p className="text-caption font-semibold uppercase tracking-wide text-ink-muted">{etiqueta}</p>
-      <p className={cx('mt-1 font-mono text-kpi font-semibold tabular', tono && { viable: 'text-viable', revisar: 'text-revisar', noir: 'text-noir' }[tono])}>{valor}</p>
+      <p className={cx('mt-1 whitespace-nowrap font-mono font-semibold tabular', largo ? 'text-data-lg lg:text-h4' : 'text-kpi', tono && { viable: 'text-viable', revisar: 'text-revisar', noir: 'text-noir' }[tono])}>{valor}</p>
     </div>
   );
 }
@@ -58,7 +58,7 @@ export function PanelCKOP({ filas, radar, t, puedeDecidir, ejemplo }: {
         <Kpi etiqueta={tx(t, 'kpi', 'viable')} valor={String(k.viable)} tono="viable" />
         <Kpi etiqueta={tx(t, 'kpi', 'revisar')} valor={String(k.revisar)} tono="revisar" />
         <Kpi etiqueta={tx(t, 'kpi', 'noir')} valor={String(k.noir)} tono="noir" />
-        <Kpi etiqueta={tx(t, 'kpi', 'valor')} valor={cop(k.valor)} />
+        <Kpi etiqueta={tx(t, 'kpi', 'valor')} valor={cop(k.valor)} largo />
         <Kpi etiqueta={tx(t, 'kpi', 'cierran')} valor={String(k.cierran)} />
       </div>
 

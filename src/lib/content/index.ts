@@ -13,6 +13,7 @@ import ckopDemo from '@content/ckop_demo.json';
 import soluciones from '@content/soluciones.json';
 import legal from '@content/legal.json';
 import jsgm from '@content/jsgm.json';
+import aliados from '@content/aliados.json';
 import cursoC601 from '@content/cursos/c6-01.json';
 import { esPreview } from '../preview';
 
@@ -29,6 +30,7 @@ export const contenido = {
   soluciones: S.Soluciones.parse(soluciones),
   legal: S.Legal.parse(legal),
   jsgm: S.JSGM.parse(jsgm),
+  aliados: S.Aliados.parse(aliados),
 };
 
 const todosLosProductos = S.Catalogo.parse(catalogo);

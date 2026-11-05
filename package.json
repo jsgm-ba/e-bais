@@ -12,7 +12,8 @@
     "test": "vitest run",
     "verificar": "tsx scripts/verificar-contenido.ts",
     "contraste": "tsx scripts/verificar-contraste.ts",
-    "e2e": "node tests/e2e/humo.mjs"
+    "e2e": "node tests/e2e/humo.mjs",
+    "conexiones": "node --conditions=react-server --import tsx scripts/probar-conexiones.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.5.0",

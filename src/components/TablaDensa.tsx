@@ -31,9 +31,9 @@ export function TablaDensa<T>({ columnas, filas, clave, titulo, vacio = 'Sin fil
               <tr key={k} className={cx('h-row border-b border-line hover:bg-accent-soft', seleccionada === k && 'bg-accent-soft')}
                 aria-current={seleccionada === k ? true : undefined}>
                 {columnas.map((c, i) => (
-                  <td key={c.clave} className={cx('px-3 py-1 align-middle', c.numerica && 'text-right font-mono text-data tabular', c.className)}>
+                  <td key={c.clave} className={cx('px-3 py-1 align-middle', (c.numerica || i === 0) && 'whitespace-nowrap', c.numerica && 'text-right font-mono text-data tabular', c.className)}>
                     {i === 0 && onFila ? (
-                      <button type="button" onClick={() => onFila(f)} className="text-left font-mono text-data text-accent underline-offset-2 hover:underline">
+                      <button type="button" onClick={() => onFila(f)} className="whitespace-nowrap text-left font-mono text-data text-accent underline-offset-2 hover:underline">
                         {c.celda(f)}
                       </button>
                     ) : c.celda(f)}

@@ -1,9 +1,9 @@
 # HANDOFF · e-B&Ais · sesión del 05-nov-2026
-Rama `feat/sitio-v1`. Pull request: ver la sección 1 (se completa al abrirlo).
+Rama `feat/sitio-v1` · Pull request: https://github.com/jsgm-ba/e-bais/pull/1
 
 ## 1. Enlaces
 - Repositorio: https://github.com/jsgm-ba/e-bais
-- Pull request: [[PR]]
+- Pull request: https://github.com/jsgm-ba/e-bais/pull/1 (base `main`, que solo tenía el «Initial commit» de GitHub)
 - Vista previa de Vercel: **no existe todavía**. Falta importar el repo en Vercel (Add New → Project → `jsgm-ba/e-bais`); desde ahí, cada push a la rama genera su vista previa. En la vista previa se ven los borradores (`VERCEL_ENV=preview`).
 
 ## 2. Gasto
@@ -12,7 +12,7 @@ El indicador de uso de la sesión no se actualizó durante el turno de trabajo (
 ## 3. Qué cambió frente al prompt maestro (decisiones de JSGM, 05-nov-2026)
 - **Full-stack** en lugar de estático: Next.js con servidor en Vercel, Supabase (Postgres con RLS y Auth por enlace mágico) y CKOP leyendo el Sheets Maestro con una cuenta de servicio.
 - El repo llegó vacío: **CLAUDE.md, design/tokens.json y content/ se reconstruyeron** a partir de DESIGN_SYSTEM.md, PROMPT 1B v2 y el Catálogo Maestro xlsx. Si existe el kit original, comparar con CLAUDE.md §6.
-- Alcance: cimientos y un piloto de cada superficie. Nuevo: **perfil experto de JSGM** (`/jsgm`) como portafolio consultivo para B&A y las fundaciones aliadas.
+- Alcance: cimientos y un piloto de cada superficie. Nuevo: **perfil experto de JSGM** (`/jsgm`) como portafolio consultivo, y **propuestas de colaboración directa** con Juntos de la Mano y Derecho y Formación (`/aliados`, `/aliados/[fundacion]`, imprimibles con Ctrl+P), con hipótesis por validar, oferta, plan de 90 días, métricas, aportes de cada parte y preguntas para la primera reunión.
 - Los productos conservan su estado del Catálogo: 39 «En diseño» y 2 «Confirmado» (C4-04 y C4-05). Todos con «Precio en preparación» mientras `aprobado_mmp` sea falso.
 
 ## 4. Criterios de aceptación y evidencia
@@ -23,14 +23,15 @@ El indicador de uso de la sesión no se actualizó durante el turno de trabajo (
 | Catálogo de /eva = catalogo.json | Cumple | 41 productos en `content/catalogo.json`; la página muestra `conteo-catalogo` = 41 en vista previa |
 | Ningún aliado, cliente o docente con nombre sin `permiso_ref` | Cumple | Regla `nombre-sin-permiso`; las fundaciones y el FNE solo aparecen en vista previa, como borrador |
 | Formularios: sin autorización no envía; sin destino lo dice | Cumple | `Formulario.tsx` y `/api/formularios` (`autorizacion: z.literal(true)`; 503 «Formulario en preparación») |
-| axe sin violaciones serias, contraste AA, 360 px sin scroll | Cumple | `pnpm e2e`: 64 de 64 combinaciones (16 rutas × 360/1280 × claro/oscuro); `pnpm contraste`: 72 de 72 parejas AA |
+| axe sin violaciones serias, contraste AA, 360 px sin scroll | Cumple | `pnpm e2e`: 76 de 76 combinaciones (19 rutas × 360/1280 × claro/oscuro); `pnpm contraste`: 72 de 72 parejas AA |
 | Un solo acento por pantalla; semáforo con ícono + palabra; sin emoji ni logo reconstruido | Cumple | `data-product` por superficie; `EstadoSemaforo`; marcador `eb-logo-slot` |
 | Producción no publica borradores | Cumple | Build con `VERCEL_ENV=production`: páginas en «Contenido en preparación», fichas en 404 y `/sistema` en 404 |
-| Rama empujada, PR abierto, vista previa de Vercel | Parcial | Rama y PR sí; vista previa pendiente de importar el repo en Vercel |
+| Rama empujada, PR abierto, vista previa de Vercel | Parcial | Rama y PR #1 sí; vista previa pendiente de importar el repo en Vercel |
 
-Comandos verificados en el contenedor: `pnpm typecheck` · `pnpm lint` · `pnpm test` (22 pruebas) · `pnpm build` · `pnpm e2e`.
+Comandos verificados en el contenedor: `pnpm typecheck` · `pnpm lint` · `pnpm test` (26 pruebas) · `pnpm build` · `pnpm e2e`.
 
 ## 5. Lo que no se pudo probar en este contenedor
+`pnpm conexiones` prueba cada servicio y dice qué falta; la guía paso a paso está en `docs/CONECTAR_DATOS.md`.
 - **Supabase**: no hay proyecto ni claves, y `api.supabase.com` está bloqueado por la red del entorno. El esquema, la RLS, el ingreso, el avance de cursos y las decisiones de CKOP están escritos y tipados, pero **no se han ejecutado contra una base real**.
 - **Sheets Maestro**: falta la cuenta de servicio. Los encabezados reales de `SEMÁFORO 2026-2` se mapean por alias en `src/lib/sheets.ts` (ALIAS): hay que confirmarlos con la hoja.
 - **SECOP II**: `datos.gov.co` está bloqueado por la red. Los nombres de campo del dataset `p6dx-8zbt` en `src/lib/secop.ts` están **sin verificar**.

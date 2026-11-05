@@ -181,3 +181,20 @@ export const JSGM = z.object({
   lineas_contenido: z.object({ titulo: z.string(), items: z.array(z.string()) }),
   cta: Enlace, aviso: z.string(),
 });
+
+const Fundacion = z.object({
+  id: z.string(), nombre: z.string(), url: z.string().url(), permiso_ref: z.string().nullable(), lectura: z.string(),
+  hipotesis: z.array(z.string()), propuesta_valor: z.string(),
+  oferta: z.array(z.object({ t: z.string(), d: z.string(), producto: z.string().optional(), estado: z.string().optional() })),
+  plan_90: z.array(z.object({ fase: z.string(), t: z.string(), d: z.string() })),
+  metricas: z.array(z.string()), aporta_fundacion: z.array(z.string()), aporta_ba: z.array(z.string()), preguntas: z.array(z.string()),
+});
+export type Fundacion = z.infer<typeof Fundacion>;
+export const Aliados = z.object({
+  _estado: Estado, meta: z.object({ title: z.string(), description: z.string() }),
+  intro: z.object({ titulo: z.string(), bajada: z.string(), principios: z.array(z.string()) }),
+  valor_compartido: z.object({ titulo: z.string(), items: z.array(z.object({ t: z.string(), d: z.string() })) }),
+  modalidades: z.object({ titulo: z.string(), items: z.array(z.object({ id: z.string(), t: z.string(), d: z.string(), quien_paga: z.string() })) }),
+  fundaciones: z.array(Fundacion),
+  cta: z.object({ t: z.string(), h: z.string() }), aviso: z.string(),
+});

@@ -10,7 +10,7 @@
  "cuenta": {"ingresar": "Ingresar", "mi_cuenta": "Mi cuenta", "salir": "Salir"},
  "pie": {
   "titulo_cruzado": "Ecosistema e-B&Ais",
-  "enlaces": [{"t": "e-B&Ais", "h": "/"}, {"t": "B&A consultoría y auditoría", "h": "/ba"}, {"t": "EVA academia", "h": "/eva"}, {"t": "CKOP licitaciones", "h": "/ckop"}, {"t": "Soluciones a la medida", "h": "/soluciones"}],
+  "enlaces": [{"t": "e-B&Ais", "h": "/"}, {"t": "B&A consultoría y auditoría", "h": "/ba"}, {"t": "EVA academia", "h": "/eva"}, {"t": "CKOP licitaciones", "h": "/ckop"}, {"t": "Soluciones a la medida", "h": "/soluciones"}, {"t": "Alianzas con fundaciones", "h": "/aliados"}, {"t": "Perfil experto JSGM", "h": "/jsgm"}],
   "legal": [{"t": "Privacidad", "h": "/privacidad"}, {"t": "Términos", "h": "/terminos"}],
   "razon_social": "Business & Auditing Consultores Ltda. · NIT 830.026.351-4",
   "aviso_certificacion": "B&A no es organismo de certificación. La certificación de sistemas de gestión la otorga un organismo acreditado; nuestro aliado certificador es FB Certification SAS."

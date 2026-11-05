@@ -74,7 +74,7 @@ export default function PerfilJSGM() {
             <ul className="grid gap-4 lg:grid-cols-2">
               {fundaciones.map((f) => (
                 <li key={f.id} className="rounded-md border border-line bg-surface-raised p-6">
-                  <h3 className="text-h3 font-semibold">{f.nombre}</h3>
+                  <h3 className="text-h3 font-semibold"><Link href={`/aliados/${f.id}`} className="hover:text-accent">{f.nombre}</Link></h3>
                   <p className="mt-1 text-caption text-ink-muted">Propuesta por validar con la fundación</p>
                   <ul className="mt-4 grid gap-2">
                     {f.propuesta.map((p) => <li key={p} className="flex gap-2"><IconoCheck className="mt-1 shrink-0 text-accent" /><span>{p}</span></li>)}

@@ -16,5 +16,6 @@ export const REGISTRO: Record<string, ZodTypeAny> = {
   'soluciones.json': S.Soluciones,
   'legal.json': S.Legal,
   'jsgm.json': S.JSGM,
+  'aliados.json': S.Aliados,
   'cursos/*.json': S.Curso,
 };

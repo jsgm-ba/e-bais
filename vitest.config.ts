@@ -6,6 +6,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       '@content': fileURLToPath(new URL('./content', import.meta.url)),
+      'server-only': fileURLToPath(new URL('./tests/unit/stubs/server-only.ts', import.meta.url)),
     },
   },
   test: { include: ['tests/unit/**/*.test.ts'] },
