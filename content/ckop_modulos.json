@@ -1,0 +1,12 @@
+{
+ "_estado": {"publicacion": "borrador", "aprobado_por": null, "fuentes": ["Tablero PRIORIZACIÓN JSGM, sección 2 (05-nov-2026)"]},
+ "modulos": [
+  {"id": "P1", "nombre": "Repositorio, base de datos y sincronización con el Maestro", "estado": "en_construccion"},
+  {"id": "P2", "nombre": "Radar y alertas", "estado": "en_construccion"},
+  {"id": "P6", "nombre": "Agentes de análisis", "estado": "planeado"},
+  {"id": "P7", "nombre": "Lectura de pliegos", "estado": "planeado"},
+  {"id": "P8", "nombre": "Precios de referencia", "estado": "planeado"},
+  {"id": "P9", "nombre": "GovCon", "estado": "planeado"}
+ ],
+ "etiquetas": {"en_construccion": "En construcción", "planeado": "Planeado", "disponible": "Disponible"}
+}

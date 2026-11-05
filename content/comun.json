@@ -1,0 +1,35 @@
+{
+ "_estado": {"publicacion": "borrador", "aprobado_por": null, "fuentes": ["CLAUDE.md"]},
+ "marca": {"hub": "e-B&Ais", "ba": "B&A", "eva": "EVA", "ckop": "CKOP", "logo_slot": "LOGO B&A"},
+ "nav": {
+  "hub": [{"t": "B&A", "h": "/ba"}, {"t": "EVA", "h": "/eva"}, {"t": "CKOP", "h": "/ckop"}, {"t": "Soluciones", "h": "/soluciones"}],
+  "ba": [{"t": "Servicios", "h": "/ba/servicios"}, {"t": "Experiencia", "h": "/ba/experiencia"}, {"t": "Legado", "h": "/ba/legado"}, {"t": "Contacto", "h": "/ba/contacto"}],
+  "eva": [{"t": "Catálogo", "h": "/eva"}, {"t": "Paquetes", "h": "/eva#paquetes"}, {"t": "Aprender", "h": "/eva/aprender"}, {"t": "Lista de espera", "h": "/eva/lista-de-espera"}],
+  "ckop": [{"t": "Cómo funciona", "h": "/ckop#como"}, {"t": "Módulos", "h": "/ckop#modulos"}, {"t": "Panel", "h": "/ckop/panel"}]
+ },
+ "cuenta": {"ingresar": "Ingresar", "mi_cuenta": "Mi cuenta", "salir": "Salir"},
+ "pie": {
+  "titulo_cruzado": "Ecosistema e-B&Ais",
+  "enlaces": [{"t": "e-B&Ais", "h": "/"}, {"t": "B&A consultoría y auditoría", "h": "/ba"}, {"t": "EVA academia", "h": "/eva"}, {"t": "CKOP licitaciones", "h": "/ckop"}, {"t": "Soluciones a la medida", "h": "/soluciones"}, {"t": "Alianzas con fundaciones", "h": "/aliados"}, {"t": "Perfil experto JSGM", "h": "/jsgm"}],
+  "legal": [{"t": "Privacidad", "h": "/privacidad"}, {"t": "Términos", "h": "/terminos"}],
+  "razon_social": "Business & Auditing Consultores Ltda. · NIT 830.026.351-4",
+  "aviso_certificacion": "B&A no es organismo de certificación. La certificación de sistemas de gestión la otorga un organismo acreditado; nuestro aliado certificador es FB Certification SAS."
+ },
+ "estados": {
+  "borrador": "Borrador · requiere aprobación",
+  "en_preparacion": "Contenido en preparación",
+  "dato_ejemplo": "Dato de ejemplo",
+  "precio_preparacion": "Precio en preparación",
+  "en_diseno": "En diseño",
+  "confirmado": "Confirmado"
+ },
+ "regimen": {
+  "FB": "Certificado de aprobación expedido por FB Certification SAS, en alianza con B&A",
+  "REQUIERE_AVAL_FB": "Aval de FB Certification en trámite · por ahora, constancia de aprobación de B&A",
+  "CONSTANCIA": "Constancia de asistencia o de aprobación de B&A"
+ },
+ "formato": {"asincronico": "Asincrónico", "sincronico": "Sincrónico", "plus": "Plus con horas de experto", "in_company": "In-company", "presencial": "Presencial"},
+ "clientes": {"C1": "Consultores y auditores", "C2": "Empresas privadas", "C3": "Fundaciones y ESAL", "C4": "Entidades públicas", "C5": "Entidades con disparador", "C6": "Servidor público"},
+ "escalon": {"iman": "Gratis", "micro": "Micro-curso", "curso": "Curso", "plus": "Plus", "diplomado": "Ruta larga", "consultoria": "Consultoría B&A", "membresia": "Membresía"},
+ "no_encontrado": {"titulo": "Esta página no existe", "texto": "Revisa la dirección o vuelve al inicio.", "accion": "Ir al inicio"}
+}

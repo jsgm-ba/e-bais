@@ -1,0 +1,88 @@
+{
+ "_estado": {"publicacion": "borrador", "aprobado_por": null, "fuentes": ["Catálogo Maestro 1B, versión 05-nov-2026 (familia C3 y C4-08)", "HV de JSGM (PDF, recibido el 05-nov-2026)", "PROMPT 1B v2: red de aliados, comisión en formalización y principio de tokenización (04-nov-2026)"]},
+ "meta": {"title": "Alianzas con fundaciones · e-B&Ais", "description": "Propuestas de colaboración directa entre B&A, e-B&Ais y fundaciones aliadas: resultados demostrables, conocimiento que no se pierde y financiación a tiempo."},
+ "intro": {
+  "titulo": "Alianzas con fundaciones",
+  "bajada": "Una fundación y una firma técnica se necesitan por la misma razón: el cooperante, el donante y el Estado piden evidencia. Proponemos colaborar donde la evidencia se construye.",
+  "principios": [
+   "Empezamos con un piloto pequeño y medible antes de cualquier contrato grande.",
+   "Lo que construimos juntos queda en manos de la fundación: plantillas, tableros y manuales son suyos.",
+   "Los agentes de IA proponen; el equipo de la fundación aprueba.",
+   "Usamos solo los datos que la fundación autoriza, conforme a la Ley 1581 de 2012."
+  ]
+ },
+ "valor_compartido": {
+  "titulo": "Valor compartido",
+  "items": [
+   {"t": "Para la fundación", "d": "Informes al cooperante en horas, un sistema de calidad y control interno que resiste una debida diligencia, y una memoria de sus proyectos que no depende de quién esté en el equipo."},
+   {"t": "Para B&A y e-B&Ais", "d": "Casos de uso reales para la línea ESAL de EVA (familia C3), un piloto documentado de agentes para organizaciones sociales y presencia en el ecosistema de cooperación."},
+   {"t": "Para las comunidades", "d": "Más recursos que llegan a tiempo, porque la fundación postula mejor y rinde cuentas más rápido."}
+  ]
+ },
+ "modalidades": {
+  "titulo": "Tres formas de colaborar",
+  "items": [
+   {"id": "piloto", "t": "Piloto de 30 días", "d": "Un problema, un entregable, una medición. Por ejemplo: el informe al cooperante del último proyecto rehecho con la plantilla y el asistente, midiendo las horas ahorradas.", "quien_paga": "[[PENDIENTE: definir con MMP si el piloto es sin costo, con costo reducido o a cambio de un caso documentado]]"},
+   {"id": "co-creacion", "t": "Co-creación en EVA", "d": "Los expertos de la fundación y B&A diseñan juntos un curso con los 3 componentes de EVA. La fundación aporta su conocimiento y su comunidad; e-B&Ais aporta la plataforma, el diseño instruccional y el tutor IA.", "quien_paga": "Ingresos compartidos por inscripción. [[PENDIENTE: porcentaje a acordar; el modelo de aliados está en formalización]]"},
+   {"id": "servicio", "t": "Servicio a la medida", "d": "Fortalecimiento institucional, segundo cerebro o radar de convocatorias contratados por la fundación, con recursos propios o de un proyecto de cooperación.", "quien_paga": "Cotización por alcance. Puede incluirse como rubro de fortalecimiento en una propuesta a un cooperante."}
+  ]
+ },
+ "fundaciones": [
+  {
+   "id": "juntos-de-la-mano",
+   "nombre": "Fundación Juntos de la Mano por una Colombia Mejor",
+   "url": "https://fundacionjuntosdelamano.org/",
+   "permiso_ref": null,
+   "lectura": "[[PENDIENTE: validar con la fundación su misión, población, territorios y cooperantes actuales; el sitio no fue accesible desde la sesión de trabajo]]",
+   "hipotesis": [
+    "Ejecuta proyectos con recursos de terceros y debe rendir cuentas en formatos distintos por cada cooperante.",
+    "Se entera tarde de algunas convocatorias o no alcanza a preparar la postulación con calidad.",
+    "El conocimiento de cada proyecto queda en las personas que lo ejecutaron."
+   ],
+   "propuesta_valor": "Postular a tiempo y rendir cuentas sin rehacer el trabajo: un radar de convocatorias con criterios de encaje y un asistente que arma el informe al cooperante desde la evidencia que el equipo ya registra.",
+   "oferta": [
+    {"t": "Radar de convocatorias y cooperación", "d": "Alertas de convocatorias nacionales e internacionales con una ficha de encaje por proyecto y un calendario de postulación.", "estado": "en_diseno"},
+    {"t": "Informes a donantes en horas, no en semanas", "d": "Plantilla y asistente con IA que convierten la evidencia del proyecto en el formato de cada cooperante, con trazabilidad de cada cifra.", "producto": "C3-02"},
+    {"t": "Lista para el cooperante", "d": "Calidad y control interno para ESAL, para pasar una debida diligencia sin sorpresas.", "producto": "C3-01"}
+   ],
+   "plan_90": [
+    {"fase": "Días 1-15", "t": "Diagnóstico", "d": "Entrevistas con dirección y coordinación de proyectos; inventario de cooperantes, formatos y convocatorias de los últimos 12 meses."},
+    {"fase": "Días 16-45", "t": "Piloto", "d": "Radar configurado con los criterios de la fundación y un informe real rehecho con el asistente."},
+    {"fase": "Días 46-90", "t": "Adopción", "d": "Formación del equipo (curso C3-02), ajuste del radar y decisión sobre la siguiente fase."}
+   ],
+   "metricas": ["Horas por informe al cooperante, antes y después [SUPUESTO: meta a definir en el diagnóstico]", "Convocatorias detectadas con encaje frente a las que la fundación ya conocía", "Postulaciones presentadas dentro del plazo"],
+   "aporta_fundacion": ["Acceso a los formatos y la evidencia de un proyecto cerrado", "Una persona enlace con 2 horas por semana", "Retroalimentación sobre cada entregable"],
+   "aporta_ba": ["Diseño y configuración del radar y del asistente", "Criterio de control interno y calidad para ESAL", "Formación del equipo en EVA"],
+   "preguntas": ["¿Qué cooperantes y formatos de informe pesan más hoy?", "¿Cuántas convocatorias presentan al año y cuántas se les escapan?", "¿Quién en el equipo sería el enlace del piloto?"]
+  },
+  {
+   "id": "derecho-y-formacion",
+   "nombre": "Fundación Derecho y Formación",
+   "url": "https://fundacionderechoyformacion.org/",
+   "permiso_ref": null,
+   "lectura": "[[PENDIENTE: validar con la fundación sus programas formativos, su población y su equipo docente; el sitio no fue accesible desde la sesión de trabajo]]",
+   "hipotesis": [
+    "Su conocimiento jurídico y formativo vive en docentes y expertos y se transmite sobre todo de forma presencial.",
+    "Quiere llegar a más personas sin perder la calidad de la formación.",
+    "Necesita demostrar el impacto de su formación ante aliados y financiadores."
+   ],
+   "propuesta_valor": "Convertir el conocimiento de sus expertos en cursos virtuales que llegan a más personas, con un tutor IA que acompaña sin reemplazar al docente y una memoria institucional que conserva lo que la fundación sabe.",
+   "oferta": [
+    {"t": "Co-creación de cursos en EVA", "d": "Cursos con los 3 componentes de EVA (marco conceptual, pirámide normativa y «el cómo»), diseñados con su equipo docente y con constancia de B&A.", "producto": "C3-01"},
+    {"t": "Captura del know-how de sus expertos", "d": "Entrevistas a profundidad y un manual vivo de prácticas y criterios que alimenta los cursos y los agentes."},
+    {"t": "Memoria institucional con citas", "d": "Un repositorio consultable de su producción jurídica y formativa, donde cada respuesta cita el documento de origen.", "producto": "C4-08"}
+   ],
+   "plan_90": [
+    {"fase": "Días 1-15", "t": "Selección", "d": "Elegir con la fundación el primer programa para virtualizar y a los expertos que lo enseñan."},
+    {"fase": "Días 16-60", "t": "Co-creación", "d": "Entrevistas, diseño instruccional, primer módulo del curso con su tutor IA y prueba con un grupo piloto."},
+    {"fase": "Días 61-90", "t": "Lanzamiento piloto", "d": "Apertura del curso en EVA a un primer grupo, medición de aprobación y satisfacción, y decisión sobre el modelo de ingresos."}
+   ],
+   "metricas": ["Participantes del grupo piloto que aprueban la evaluación", "Satisfacción del grupo piloto [SUPUESTO: meta a definir]", "Horas de docente liberadas por cohorte"],
+   "aporta_fundacion": ["Expertos y contenido de un programa", "La comunidad a la que llega", "Validación jurídica del contenido"],
+   "aporta_ba": ["Plataforma EVA y diseño instruccional", "Tutor IA configurado sobre el contenido del curso", "Constancias de asistencia o aprobación de B&A"],
+   "preguntas": ["¿Qué programa tiene más demanda y menos capacidad docente?", "¿Qué reconocimiento esperan los participantes al terminar?", "¿Cómo miden hoy el impacto de su formación?"]
+  }
+ ],
+ "cta": {"t": "Agendar una conversación", "h": "/ba/contacto?motivo=soluciones"},
+ "aviso": "Propuesta preliminar para conversar. Las hipótesis se validan con cada fundación antes de cualquier compromiso; precios y porcentajes los aprueba la dirección técnica de B&A."
+}

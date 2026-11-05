@@ -1,0 +1,41 @@
+{
+ "producto_id": "C6-01",
+ "slug": "usa-la-ia-en-tu-trabajo-sin-poner-en-riesgo-tu-firma",
+ "publicacion": "borrador", "aprobado_por": null,
+ "fuentes": ["Catálogo Maestro 1B, versión 05-nov-2026 (C6-01)", "Brochure FNE «Servidor público + IA» (oct-2026)", "Ley 1581 de 2012", "CONPES 4144 de 2025"],
+ "titulo": "Usa la IA en tu trabajo sin poner en riesgo tu firma",
+ "promesa": "Al terminar sabes qué puedes pedirle a una IA, qué no, y dejas trazabilidad de cada uso.",
+ "duracion_h": 4,
+ "entregable_final": "Tu kit personal: protocolo de uso responsable, 10 prompts probados para tu cargo y bitácora de trazabilidad.",
+ "modulos": [
+  {"id": "m1", "titulo": "Qué hace y qué no hace una IA generativa", "minutos": 60, "lecciones": [
+   {"id": "m1-l1", "tipo": "concepto", "titulo": "Calcula, no juzga", "parrafos": ["Una IA generativa predice la siguiente palabra a partir de patrones. Eso la hace rápida para redactar, resumir y ordenar, y poco confiable para afirmar hechos sin fuente.", "La regla del curso: la máquina hace el cálculo (redactar, clasificar, comparar) y tú haces el juicio (decidir, validar, firmar)."], "actividad": "Escribe tres tareas de tu semana: una que la IA puede hacer sola, una que puede preparar para que tú decidas y una que no debe tocar."},
+   {"id": "m1-l2", "tipo": "concepto", "titulo": "Las tres fallas que cuestan una firma", "parrafos": ["Inventar: cita normas, cifras o radicados que no existen.", "Filtrar: recibe datos personales o reservados que no debías compartir.", "Sesgar: responde igual para casos que la norma trata distinto."], "actividad": "Marca cuál de las tres fallas te expone más en tu cargo."}
+  ]},
+  {"id": "m2", "titulo": "La pirámide normativa del uso de IA en el servicio público", "minutos": 60, "lecciones": [
+   {"id": "m2-l1", "tipo": "norma", "titulo": "De la Constitución a tu escritorio", "piramide": [
+    {"nivel": "Constitución", "norma": "Artículo 15 (intimidad y habeas data) y artículo 209 (principios de la función administrativa)"},
+    {"nivel": "Ley", "norma": "Ley 1581 de 2012 (protección de datos personales) y Ley 1712 de 2014 (transparencia y acceso a la información)"},
+    {"nivel": "Decreto", "norma": "Decreto 1074 de 2015, capítulo 25 (reglamentación de la Ley 1581)"},
+    {"nivel": "Política", "norma": "CONPES 4144 de 2025, Política Nacional de Inteligencia Artificial"},
+    {"nivel": "Regulador", "norma": "[[PENDIENTE: verificar la circular vigente de la Superintendencia de Industria y Comercio sobre IA y datos personales]]"},
+    {"nivel": "Entidad", "norma": "Política de seguridad de la información y de tratamiento de datos de tu entidad"},
+    {"nivel": "Sistema de gestión", "norma": "ISO/IEC 27001 (seguridad de la información) e ISO/IEC 42001 (sistemas de gestión de IA)"}
+   ], "parrafos": ["Cada nivel obliga al de abajo. Si tu entidad no tiene política de uso de IA, aplican igual la ley de datos y la de transparencia."], "actividad": "Busca la política de tratamiento de datos de tu entidad y anota la finalidad que más se parece a tu trabajo."}
+  ]},
+  {"id": "m3", "titulo": "El cómo: protocolo de uso responsable", "minutos": 60, "lecciones": [
+   {"id": "m3-l1", "tipo": "como", "titulo": "Antes, durante y después del prompt", "parrafos": ["Antes: quita nombres, cédulas, direcciones y datos reservados. Si no puedes quitarlos, no uses una IA pública.", "Durante: pide fuentes y pide que marque lo que no sabe. Da el contexto normativo en el prompt.", "Después: verifica cada cifra y cada norma contra la fuente oficial. Lo que no verificas, no lo firmas."], "actividad": "Reescribe un prompt que hayas usado aplicando las tres etapas."},
+   {"id": "m3-l2", "tipo": "como", "titulo": "La bitácora de trazabilidad", "parrafos": ["Registra fecha, tarea, herramienta, qué datos usaste, qué verificaste y quién aprobó.", "La bitácora te protege en una auditoría: muestra que la decisión fue tuya y que validaste el borrador."], "actividad": "Llena la primera fila de tu bitácora con el ejercicio anterior."}
+  ]},
+  {"id": "m4", "titulo": "Tu kit: 10 prompts para tu cargo", "minutos": 60, "lecciones": [
+   {"id": "m4-l1", "tipo": "practica", "titulo": "Prompts que dejan rastro", "parrafos": ["Usa la estructura rol, tarea, contexto normativo, formato y restricciones.", "Ejemplo: «Actúa como redactor de respuestas a derechos de petición. Resume esta solicitud anonimizada en 5 líneas, identifica la pretensión y el término legal de respuesta, y marca lo que no puedas confirmar.»"], "actividad": "Escribe y prueba 10 prompts para tareas reales de tu cargo. Guarda los que funcionaron en tu kit."}
+  ]}
+ ],
+ "evaluacion": [
+  {"id": "q1", "pregunta": "Vas a resumir un expediente con nombres y cédulas en una IA pública. ¿Qué haces primero?", "opciones": ["Lo pego completo para no perder contexto", "Quito los datos personales o no uso una IA pública", "Le pido a la IA que no guarde los datos"], "correcta": 1},
+  {"id": "q2", "pregunta": "La IA cita una resolución que respalda tu respuesta. ¿Qué haces?", "opciones": ["La cito tal cual", "La verifico en la fuente oficial antes de usarla", "Pido a la IA que confirme que existe"], "correcta": 1},
+  {"id": "q3", "pregunta": "¿Para qué sirve la bitácora de trazabilidad?", "opciones": ["Para mostrar que la decisión y la validación fueron tuyas", "Para medir cuántas veces usaste la IA", "Para que la IA aprenda de tus correcciones"], "correcta": 0}
+ ],
+ "aprobacion_minima": 2,
+ "constancia": "Constancia de aprobación de B&A al responder bien al menos 2 de 3 preguntas."
+}

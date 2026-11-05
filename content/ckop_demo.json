@@ -1,0 +1,97 @@
+{
+ "_estado": {
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Datos de ejemplo generados para la demostración; no son procesos reales"
+  ]
+ },
+ "dato_ejemplo": true,
+ "filas": [
+  {
+   "codigo": "EJ-2026-001",
+   "entidad": "Entidad territorial de ejemplo",
+   "objeto": "Auditoría interna al sistema de control interno contable",
+   "valor": 48200000,
+   "cierre": "2026-11-12T14:00:00-05:00",
+   "estado": "viable",
+   "hitos": [
+    {
+     "t": "Observaciones al proyecto de pliego",
+     "fecha": "2026-11-06T17:00:00-05:00"
+    },
+    {
+     "t": "Presentar oferta",
+     "fecha": "2026-11-12T14:00:00-05:00"
+    },
+    {
+     "t": "Informe de evaluación",
+     "fecha": "2026-11-17T23:59:00-05:00"
+    }
+   ]
+  },
+  {
+   "codigo": "EJ-2026-002",
+   "entidad": "Empresa social del Estado de ejemplo",
+   "objeto": "Capacitación del Plan Institucional de Capacitación 2027",
+   "valor": 36500000,
+   "cierre": "2026-11-09T10:00:00-05:00",
+   "estado": "revisar",
+   "hitos": [
+    {
+     "t": "Manifestar interés",
+     "fecha": "2026-11-07T17:00:00-05:00"
+    },
+    {
+     "t": "Presentar oferta",
+     "fecha": "2026-11-09T10:00:00-05:00"
+    }
+   ]
+  },
+  {
+   "codigo": "EJ-2026-003",
+   "entidad": "Fondo nacional de ejemplo",
+   "objeto": "Interventoría de obra civil",
+   "valor": 912000000,
+   "cierre": "2026-11-20T17:00:00-05:00",
+   "estado": "noir",
+   "hitos": []
+  },
+  {
+   "codigo": "EJ-2026-004",
+   "entidad": "Instituto descentralizado de ejemplo",
+   "objeto": "Diagnóstico e implementación de MIPG versión 7",
+   "valor": 120000000,
+   "cierre": "2026-11-18T09:00:00-05:00",
+   "estado": "viable",
+   "hitos": [
+    {
+     "t": "Observaciones al proyecto de pliego",
+     "fecha": "2026-11-10T17:00:00-05:00"
+    },
+    {
+     "t": "Presentar oferta",
+     "fecha": "2026-11-18T09:00:00-05:00"
+    }
+   ]
+  },
+  {
+   "codigo": "EJ-2026-005",
+   "entidad": "Alcaldía de categoría 4 de ejemplo",
+   "objeto": "Transición del sistema de gestión de calidad a la nueva edición ISO 9001",
+   "valor": 64000000,
+   "cierre": "2026-11-25T15:00:00-05:00",
+   "estado": "revisar",
+   "hitos": [
+    {
+     "t": "Presentar oferta",
+     "fecha": "2026-11-25T15:00:00-05:00"
+    },
+    {
+     "t": "Subsanación",
+     "fecha": "2026-12-01T23:59:00-05:00"
+    }
+   ]
+  }
+ ]
+}

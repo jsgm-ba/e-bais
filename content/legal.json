@@ -1,0 +1,85 @@
+{
+ "_estado": {
+  "publicacion": "borrador",
+  "aprobado_por": null,
+  "fuentes": [
+   "Ley 1581 de 2012",
+   "Decreto 1074 de 2015, capítulo 25"
+  ]
+ },
+ "aviso_juridico": "Borrador · requiere revisión jurídica",
+ "autorizacion": {
+  "version": "2026-11-05-borrador",
+  "texto": "Autorizo a Business & Auditing Consultores Ltda. a tratar mis datos personales para responder esta solicitud y enviarme información de los productos que elegí, según la política de tratamiento de datos.",
+  "enlace": "Leer la política de tratamiento de datos",
+  "obligatoria": "Para enviar el formulario necesitamos tu autorización."
+ },
+ "formulario": {
+  "nombre": "Nombre",
+  "correo": "Correo electrónico",
+  "organizacion": "Organización (opcional)",
+  "perfil": "¿Quién eres?",
+  "interes": "Producto de interés",
+  "mensaje": "Mensaje",
+  "motivo": "Motivo",
+  "enviar": "Enviar",
+  "enviando": "Enviando",
+  "ok": "Recibimos tu solicitud. Te escribimos al correo que dejaste.",
+  "error": "No pudimos enviar. Intenta de nuevo en unos minutos.",
+  "sin_endpoint": "Formulario en preparación"
+ },
+ "privacidad": {
+  "titulo": "Política de tratamiento de datos personales",
+  "secciones": [
+   {
+    "t": "Responsable",
+    "p": "Business & Auditing Consultores Ltda., NIT 830.026.351-4. [[PENDIENTE: dirección y correo de contacto para titulares]]"
+   },
+   {
+    "t": "Finalidades",
+    "p": "Responder solicitudes, gestionar listas de espera, inscribir participantes en cursos, emitir constancias y enviar información de los productos que la persona elija."
+   },
+   {
+    "t": "Derechos del titular",
+    "p": "Conocer, actualizar, rectificar y suprimir sus datos, revocar la autorización y presentar quejas ante la Superintendencia de Industria y Comercio, según el artículo 8 de la Ley 1581 de 2012."
+   },
+   {
+    "t": "Datos sensibles y de menores",
+    "p": "No solicitamos datos sensibles ni datos de menores de edad en estos formularios."
+   },
+   {
+    "t": "Herramientas de terceros",
+    "p": "Este sitio no usa rastreadores ni analítica de terceros."
+   },
+   {
+    "t": "Vigencia",
+    "p": "[[PENDIENTE: fecha de entrada en vigencia tras la revisión jurídica]]"
+   }
+  ]
+ },
+ "terminos": {
+  "titulo": "Términos de uso",
+  "secciones": [
+   {
+    "t": "Alcance",
+    "p": "Estos términos regulan el uso del sitio de e-B&Ais, B&A, EVA y CKOP."
+   },
+   {
+    "t": "Constancias",
+    "p": "B&A no es organismo de certificación. Las constancias de asistencia o de aprobación las emite B&A. En los cursos ISO con aval escrito de FB Certification SAS, ese organismo expide el documento de aprobación del curso."
+   },
+   {
+    "t": "Precios",
+    "p": "Los precios publicados son de referencia hasta su aprobación y pueden cambiar."
+   },
+   {
+    "t": "Contenido generado con IA",
+    "p": "Los borradores que proponen los agentes requieren aprobación de una persona antes de usarse."
+   },
+   {
+    "t": "Ley aplicable",
+    "p": "[[PENDIENTE: revisión jurídica]]"
+   }
+  ]
+ }
+}
